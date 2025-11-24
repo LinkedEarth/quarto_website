@@ -1,9 +1,9 @@
-## Welcome to the Masiello Group Website Repository
+## Quarto LinkedEarth Website Repository
 
 This website is built with [Quarto](https://quarto.org), an open source scientific and technical publishing system.
+It was forked from the [Masiello group](https://faculty.washington.edu/masiello/)'s repository. 
 
 Note: the `_utils` directory contains helper scripts used when migrating from Wowchemy / Hugo Academic to Quarto.
-
 
 ## Notes to self
 
