@@ -247,10 +247,55 @@ div.gradient-text {
   max-width: 80%;
   margin-top: 10px;
   margin-bottom: 12px;
-  color: #222;
-  font-size: 18px;
+  color: #4A7BA7;
+  font-size: 20px;
   line-height: 1.2;
-  font-weight: 700;
+  font-weight: 700 !important;
+}
+
+.listing-box-title a {
+  color: #4A7BA7 !important;
+  font-weight: 700 !important;
+  text-decoration: none;
+}
+
+.listing-box-title a:hover {
+  color: #2E5F7F;
+  text-decoration: underline;
+}
+
+/* Additional selectors to ensure names are bold */
+.listing-grid .listing-item .listing-title,
+.listing-grid .listing-item h3,
+.listing-grid .listing-item h3 a,
+div.quarto-post h3.listing-title,
+div.quarto-post h3.listing-title a,
+.quarto-listing .quarto-post .listing-title,
+.quarto-listing .quarto-post h3,
+.quarto-listing .listing-item h3,
+.quarto-listing h3.listing-title {
+  font-weight: 700 !important;
+  color: #4A7BA7 !important;
+}
+
+/* Ensure all links in listing titles are bold */
+.quarto-listing a {
+  font-weight: inherit;
+}
+
+.listing-item h3 a,
+h3.listing-title a,
+.listing-name a {
+  font-weight: 700 !important;
+  color: #4A7BA7 !important;
+  text-decoration: none;
+}
+
+.listing-item h3 a:hover,
+h3.listing-title a:hover,
+.listing-name a:hover {
+  color: #2E5F7F !important;
+  text-decoration: underline;
 }
 
 .listing-box-subtitle {
@@ -269,6 +314,15 @@ div.gradient-text {
   color: #757883;
   font-size: 12px;
   line-height: 1.5;
+}
+
+.listing-box-key-areas {
+  margin-top: 8px;
+  margin-bottom: 0;
+  color: #555;
+  font-size: 13px;
+  line-height: 1.4;
+  font-style: italic;
 }
 
 .listing-box-button a[role="button"] {

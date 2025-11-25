@@ -1,0 +1,51 @@
+---
+title: &TITLE Nick McKay
+first: Nick
+last: McKay
+people_group: coreteam
+email: "nicholas.mckay@nau.edu"
+subtitle: School of Earth and Sustainability, Northern Arizona University
+key_areas: "Paleoclimatology, data analysis, age modeling"
+website: "https://nickmckay.org"
+image: nick.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: nick.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:nicholas.mckay@nau.edu
+    - icon: globe
+      text: Website
+      href: https://nickmckay.org
+---
+
+<hr>
+
+:::{#about}
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

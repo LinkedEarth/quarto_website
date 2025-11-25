@@ -1,0 +1,51 @@
+---
+title: &TITLE Deborah Khider
+first: Deborah
+last: Khider
+people_group: coreteam
+email: "khider@usc.edu"
+subtitle: Information Sciences Institute, University of Southern California
+key_areas: "Paleoclimatology, data science, AI, open science"
+website: "https://knowledgecaptureanddiscovery.github.io/authors/deborah-khider/"
+image: deborah.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: deborah.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:khider@usc.edu
+    - icon: globe
+      text: Website
+      href: https://knowledgecaptureanddiscovery.github.io/authors/deborah-khider/
+---
+
+<hr>
+
+:::{#about}
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

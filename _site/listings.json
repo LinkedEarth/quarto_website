@@ -325,35 +325,15 @@
   {
     "listing": "/community/index.html",
     "items": [
-      "/people/anyanwu-praise/index.html",
-      "/people/beutler-elliot/index.html",
-      "/people/bhattacharya-aniruddha/index.html",
-      "/people/bigelow-nicholas/index.html",
-      "/people/busche-jacob/index.html",
-      "/people/cherqui-charles/index.html",
-      "/people/goldwyn-harrison/index.html",
-      "/people/hu-zhongwei/index.html",
-      "/people/kong-xiang-tian/index.html",
-      "/people/montoni-nicholas/index.html",
-      "/people/nixon-austin/index.html",
-      "/people/qian-zhaoxia/index.html",
-      "/people/quillin-steven/index.html",
-      "/people/sanchez-michael/index.html",
-      "/people/smith-kevin/index.html",
-      "/people/thakkar-niket/index.html",
-      "/people/west-claire/index.html",
-      "/people/chalifour-matthieu/index.html",
-      "/people/ext-reinhardt-phil/index.html",
-      "/people/guo-xiaofei/index.html",
-      "/people/khorasani-siamak/index.html",
-      "/people/moser-kevin/index.html",
-      "/people/rossi-andrew/index.html",
-      "/people/ext-link-stephan/index.html",
-      "/people/ext-willets-katherine/index.html",
-      "/people/masiello-david/index.html",
-      "/people/ext-lee-stephen/index.html",
-      "/people/tiwari-vishal/index.html",
-      "/people/bourgeois-marc/index.html"
+      "/people/khider-deborah/index.html",
+      "/people/emile-geay-julien/index.html",
+      "/people/mckay-nick/index.html",
+      "/people/gil-yolanda/index.html",
+      "/people/landers-jordan/index.html",
+      "/people/niati-maryam/index.html",
+      "/people/james-alexander/index.html",
+      "/people/garijo-daniel/index.html",
+      "/people/zhu-feng/index.html"
     ]
   },
   {
@@ -560,5 +540,41 @@
       "/publications/2019_046_Plasmon_Heating_Prom/index.html",
       "/publications/2016_034_STEM_EELS_Imaging_of/index.html"
     ]
+  },
+  {
+    "listing": "/people/zhu-feng/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/mckay-nick/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/khider-deborah/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/emile-geay-julien/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/james-alexander/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/landers-jordan/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/niati-maryam/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/gil-yolanda/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/garijo-daniel/index.html",
+    "items": []
   }
 ]

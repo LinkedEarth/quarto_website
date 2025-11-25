@@ -4,13 +4,17 @@
   
   <div class="list grid quarto-listing-cols-3"> 
 
-    <% for (const item of items) { ;%> 
-    
+    <% for (const item of items) { ;%>
+
     <div class="g-col-1 listing-box">
-      
-      
-      
+
+
+
+      <% if (item.website) { %>
+      <a href="<%- item.website %>" role="button" class="quarto-grid-link" target="_blank" rel="noopener noreferrer">
+      <% } else { %>
       <a href="<%- item.path %>" role="button" class="quarto-grid-link">
+      <% } %>
         <div class="quarto-grid-item card h-100 card-left">
           
           
@@ -21,7 +25,7 @@
           <div class="card-body post-contents">
             
             <div class="listing-box-title">
-              <%= item.title %><br> 
+              <strong><%= item.title %></strong><br>
             </div>
                
             <div class="listing-box-subtitle">
@@ -31,14 +35,20 @@
             
               
               <div class="listing-box-education">
-                
+
                 <% if (item.education) { %>
                   <%= item.education %><br>
                   <%} else { %>
                     <p>  </p>
                     <% } %>
-                    
-              </div>  
+
+              </div>
+
+              <% if (item.key_areas) { %>
+              <div class="listing-box-key-areas">
+                <%= item.key_areas %>
+              </div>
+              <% } %>  
                   
 
             

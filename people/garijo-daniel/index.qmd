@@ -1,0 +1,51 @@
+---
+title: &TITLE Daniel Garijo
+first: Daniel
+last: Garijo
+people_group: alumni
+email: "dgarijo@fi.upm.es"
+subtitle: Alumni, Universidad Politécnica de Madrid
+key_areas: "e-Science, semantic web, scientific workflows, provenance"
+website: "https://dgarijo.com"
+image: avatar.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: avatar.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:dgarijo@fi.upm.es
+    - icon: globe
+      text: Website
+      href: https://dgarijo.com
+---
+
+<hr>
+
+:::{#about}
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::

@@ -29,6 +29,8 @@ website:
     background: "#f8f9fa"
     logo-alt: "LinkedEarth"
     left:
+      - href: index.qmd
+        text: Home
       - href: about/index.qmd
         text: About
       - href: data/index.qmd
@@ -39,6 +41,8 @@ website:
         text: Community
       - href: training/index.qmd
         text: Training
+      - href: funding/index.qmd
+        text: Funding
 
   sidebar:
     - id: empty-to-suppress-sidebars-on-other-pages

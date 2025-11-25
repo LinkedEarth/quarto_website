@@ -7,7 +7,7 @@ page-layout: full
 Welcome to LinkedEarth<br>
 </div>
 <div class="welcome-subheadline">
-Advancing Paleoclimate Science Through Data Sharing and Collaboration
+A collaboratory for the future of past climates
 </div>
 </div>
 
@@ -18,16 +18,26 @@ Advancing Paleoclimate Science Through Data Sharing and Collaboration
 ::: grid
 ::: {.g-col-12 .g-col-lg-8 .welcome-text style="padding: 30px; background: white; border-radius: 10px;"}
 
-LinkedEarth is a community-driven initiative dedicated to advancing paleoclimate science through open data sharing, collaborative research, and innovative tools. We bring together researchers, data scientists, and paleoclimate experts from around the world to build a comprehensive, accessible repository of paleoclimate data and develop cutting-edge analytical tools.
+LinkedEarth is a community-driven initiative dedicated to advancing paleoclimate science through open data sharing, collaborative research, and digital tools. We bring together paleoclimate experts and data scientists to extract more information about Earth's past climates, with the goal of better informing its future.
 
-### What We Offer
+### Synopsis
 
-- **Open Data Repository**: Access to curated paleoclimate datasets with standardized formats
+PLACEHOLDER FOR WEBSEDGE VIDEO
+
+### Offerings
+
+- **Data Cutaion**: Access to curated paleoclimate datasets with standardized formats
 - **Analysis Tools**: Software packages and tools for paleoclimate data analysis
 - **Community Support**: Collaborative environment for researchers and students
 - **Training Resources**: Workshops, tutorials, and educational materials
 
-[Learn More About LinkedEarth](about/index.qmd){.btn .btn-primary}
+### Get in touch
+
+Twitter https://twitter.com/Linked_Earth, BlueSky,
+Discourse https://discourse.linked.earth/ 
+
+Please [email us](mailto:linkedearth@gmail.com ) with any questions .
+
 
 :::
 :::

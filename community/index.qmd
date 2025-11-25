@@ -1,34 +1,84 @@
 ---
 title: "Community"
 listing:
-  - id: people-listing
+  - id: core-team-listing
     contents:
       - "../people/*/index.qmd"
     type: grid
     grid-columns: 3
-    sort: "people_group"
-    fields: [image, title, subtitle]
+    template: ../_ejs/people-box.ejs
+    fields: [image, title, subtitle, key_areas, website]
     field-display-names:
       title: "Name"
       subtitle: "Role"
+      key_areas: "Key Areas"
     categories: false
     sort-ui: false
     filter-ui: false
+    include:
+      people_group: "coreteam"
+  - id: current-members-listing
+    contents:
+      - "../people/*/index.qmd"
+    type: grid
+    grid-columns: 3
+    template: ../_ejs/people-box.ejs
+    fields: [image, title, subtitle, key_areas, website]
+    field-display-names:
+      title: "Name"
+      subtitle: "Role"
+      key_areas: "Key Areas"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    include:
+      people_group: "gradstudent"
+  - id: past-members-listing
+    contents:
+      - "../people/*/index.qmd"
+    type: grid
+    grid-columns: 3
+    template: ../_ejs/people-box.ejs
+    fields: [image, title, subtitle, key_areas, website]
+    field-display-names:
+      title: "Name"
+      subtitle: "Role"
+      key_areas: "Key Areas"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+    include:
+      people_group: "alumni"
 ---
 
 ## LinkedEarth Community
 
 The LinkedEarth community brings together researchers, data scientists, and paleoclimate experts from around the world.
 
-### Our Team
+### Core Team
 
-::: {#people-listing}
+::: {#core-team-listing}
 :::
 
-### Join the Community
+### Current Members
 
-[Add information about how to join and participate]
+::: {#current-members-listing}
+:::
 
-### Contact
+### Past Members
 
-[Add contact information]
+::: {#past-members-listing}
+:::
+
+### Collectives
+
+LinkedEarth collaborates with several working groups and initiatives:
+
+- [**PAGES2k**](https://pastglobalchanges.org) - Past Global Changes 2k Network
+- [**Iso2k**](https://pastglobalchanges.org) - Isotopes 2k Network
+- [**CoralHydro2k**](https://pastglobalchanges.org) - Coral Hydro 2k Network
+- [**Temp12k**](https://doi.org/10.1038/s41597-020-0445-3) - Temperature 12k Database
+- [**PALMOD**](https://doi.org/10.5194/essd-12-1053-2020) - Paleoclimate Modelling
+
+### Participate
+

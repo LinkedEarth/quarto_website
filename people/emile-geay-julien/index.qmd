@@ -1,0 +1,51 @@
+---
+title: &TITLE Julien Emile-Geay
+first: Julien
+last: Emile-Geay
+people_group: coreteam
+email: "julieneg@usc.edu"
+subtitle: Department of Earth Sciences, University of Southern California
+key_areas: "Climate dynamics, data analysis, open science"
+website: "https://dornsife.usc.edu/profile/julien-emile-geay/"
+image: julien.jpg
+listing:
+  id: pubs
+  template: ../../_ejs/publications-people.ejs
+  contents:
+    - "../../../publications/**/*.qmd"
+    - "!../../../publications/_template/"
+  sort: "pub_number desc"
+  filter-ui: true
+  include:
+    author: *TITLE
+  fields: [publication, title, categories, image, date, author]
+page-layout: full
+about:
+  id: about
+  template: trestles
+  image-shape: round
+  image: julien.jpg
+  links:
+    - icon: envelope
+      text: Email
+      href: mailto:julieneg@usc.edu
+    - icon: globe
+      text: Website
+      href: https://dornsife.usc.edu/profile/julien-emile-geay/
+---
+
+<hr>
+
+:::{#about}
+
+## Education
+{{< meta education >}}
+
+<br>
+
+:::
+
+## {{< meta first >}}'s Group Publications
+
+:::{#pubs}
+:::
