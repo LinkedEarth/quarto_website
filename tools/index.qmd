@@ -1,0 +1,19 @@
+---
+title: "Tools"
+---
+
+## LinkedEarth Tools
+
+[Add information about software tools, packages, and resources]
+
+### Software Packages
+
+[List software packages and tools]
+
+### Analysis Tools
+
+[Information about analysis and visualization tools]
+
+### Documentation
+
+[Links to tool documentation and tutorials]

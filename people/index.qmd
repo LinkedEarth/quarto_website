@@ -1,5 +1,5 @@
 ---
-title: "Meet the Group"
+title: "LinkedEarth Community"
 listing:
   - id: pi
     include: 
@@ -65,10 +65,14 @@ page-layout: full
 :::
 
 
-:::{.sand-background}
+:::{.background}
+
+::: {.callout-note}
+## Example Entries
+The people below are example entries from the original template. Replace with actual LinkedEarth community members.
+:::
+
 ## Research Scientists
-
-
 
 ::: {#researcher}
 :::

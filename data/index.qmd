@@ -1,0 +1,19 @@
+---
+title: "Data"
+---
+
+## LinkedEarth Data Resources
+
+[Add information about data repositories, datasets, and access]
+
+### Available Datasets
+
+[List or link to available datasets]
+
+### Data Standards
+
+[Information about data standards and formats]
+
+### How to Contribute Data
+
+[Guidelines for contributing data to LinkedEarth]

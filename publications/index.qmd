@@ -1,20 +1,20 @@
 ---
 title: "Publications"
-listing:
-  - id: pubs
-    template: ../_ejs/publications.ejs
-    contents: ../publications/**/*.qmd
-    sort: "pub_number desc"
-    page-size: 30
-    filter-ui: true
-    fields: [image, pub_number, title, publication, author,url_source]
 page-layout: full
 ---
 
-<hr>
+Below are publications about LinkedEarth or reusing LinkedEarth tools. [Email us](mailto:linkedearth@gmail.com) to add your publication(s) to the list.
 
-:::{#pubs}
-:::
+## Peer-Reviewed Publications
+
+<script src="https://bibbase.org/show?bib=https%3A%2F%2Fapi.zotero.org%2Fgroups%2F2875157%2Fitems%3Fkey%3DcphI3T6CrlDY1YrGsX1VhcQT%26format%3Dbibtex%26limit%3D100&jsonp=1"></script>
+
+## Presentations
+
+The following slide decks give overviews of LinkedEarth activities and demonstrations.
+
+- [AGU Townhall Fall 2021](https://tinyurl.com/5469hjsz)
+- [PaleoCube overview](https://tinyurl.com/paleocube-presentation)
 
 
 

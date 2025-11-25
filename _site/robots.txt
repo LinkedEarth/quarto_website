@@ -1,1 +1,1 @@
-Sitemap: https://faculty.washington.edu/masiello/sitemap.xml
+Sitemap: https://linkedearth.github.io/quarto_website/sitemap.xml

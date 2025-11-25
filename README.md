@@ -1,21 +1,43 @@
-## Quarto LinkedEarth Website Repository
+## LinkedEarth Quarto Website
 
-This website is built with [Quarto](https://quarto.org), an open source scientific and technical publishing system.
-It was forked from the [Masiello group](https://faculty.washington.edu/masiello/)'s repository. 
+This is the official LinkedEarth website built with [Quarto](https://quarto.org), an open source scientific and technical publishing system.
 
-Note: the `_utils` directory contains helper scripts used when migrating from Wowchemy / Hugo Academic to Quarto.
+Originally forked from the [Masiello group](https://faculty.washington.edu/masiello/)'s repository and adapted for LinkedEarth.
 
-## Notes to self
+## About LinkedEarth
 
-### Adding publications
-use `just newpub` for creation of new directory and input prompts for new record.
+LinkedEarth is a community-driven platform for paleoclimate data sharing, analysis, and collaboration.
 
-### Adding new people
-use `just newperson` for creation of new directory and input prompts for new record.
+## Site Structure
 
-### Deployment 
+The website includes the following sections:
+- **About**: Information about LinkedEarth and its mission
+- **Data**: Data repositories and resources
+- **Tools**: Software packages and analysis tools
+- **Community**: Team members and how to get involved
+- **Training**: Workshops, tutorials, and educational materials
 
-- use long-running `updates` branch for deploy previews
-- `quarto render` locally and include `_site` in version control
-- GitHub action `scp-to-server.yml` deploys to server
+## Development
+
+### Adding Publications
+Use `just newpub` for creation of new directory and input prompts for new record.
+
+### Adding New People
+Use `just newperson` for creation of new directory and input prompts for new record.
+
+### Local Development
+```bash
+quarto preview
+```
+
+### Building the Site
+```bash
+quarto render
+```
+
+### Deployment
+
+- GitHub Pages deployment via GitHub Actions
+- Site URL: https://linkedearth.github.io/quarto_website/
+- Repository: https://github.com/LinkedEarth/quarto_website
 

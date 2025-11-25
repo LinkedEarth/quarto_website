@@ -1,0 +1,34 @@
+---
+title: "Community"
+listing:
+  - id: people-listing
+    contents:
+      - "../people/*/index.qmd"
+    type: grid
+    grid-columns: 3
+    sort: "people_group"
+    fields: [image, title, subtitle]
+    field-display-names:
+      title: "Name"
+      subtitle: "Role"
+    categories: false
+    sort-ui: false
+    filter-ui: false
+---
+
+## LinkedEarth Community
+
+The LinkedEarth community brings together researchers, data scientists, and paleoclimate experts from around the world.
+
+### Our Team
+
+::: {#people-listing}
+:::
+
+### Join the Community
+
+[Add information about how to join and participate]
+
+### Contact
+
+[Add contact information]
