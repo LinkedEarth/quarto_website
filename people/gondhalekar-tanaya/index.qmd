@@ -1,12 +1,11 @@
 ---
-title: &TITLE Alexander James
-first: Alexander
-last: James
-people_group: pastmember
+title: &TITLE Tanaya Gondhalekar
+first: Tanaya
+last: Gondhalekar
+people_group: gradstudent
 email: ""
-subtitle: Alumni, University of Southern California
-key_areas: "Paleoclimatology, Nonlinear timeseries analysis, Pyleoclim & Ammonyte development"
-website: "https://www.deepbluegeophysics.com/about"
+subtitle: Graduate Student, University of Southern California
+key_areas: "Paleoclimate data assimilation, proxy system modeling"
 image: avatar.jpg
 listing:
   id: pubs

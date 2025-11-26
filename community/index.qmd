@@ -34,7 +34,7 @@ listing:
     sort-ui: false
     filter-ui: false
     include:
-      people_group: "gradstudent"
+      people_group: ["researcher", "gradstudent"]
   - id: past-members-listing
     contents:
       - "../people/*/index.qmd"
@@ -51,7 +51,7 @@ listing:
     sort-ui: false
     filter-ui: false
     include:
-      people_group: "alumni"
+      people_group: "pastmember"
 ---
 
 ## LinkedEarth Community

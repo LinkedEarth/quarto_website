@@ -1,12 +1,12 @@
 ---
-title: &TITLE Alexander James
-first: Alexander
-last: James
+title: &TITLE Cody Rouston
+first: Cody
+last: Rouston
 people_group: pastmember
 email: ""
-subtitle: Alumni, University of Southern California
-key_areas: "Paleoclimatology, Nonlinear timeseries analysis, Pyleoclim & Ammonyte development"
-website: "https://www.deepbluegeophysics.com/about"
+subtitle: Alumni, Northern Arizona University
+key_areas: ""
+website: "https://scholar.google.com/citations?user=TQAQTl0AAAAJ&hl=en"
 image: avatar.jpg
 listing:
   id: pubs
@@ -25,6 +25,10 @@ about:
   template: trestles
   image-shape: round
   image: avatar.jpg
+  links:
+    - icon: globe
+      text: Website
+      href: https://scholar.google.com/citations?user=TQAQTl0AAAAJ&hl=en
 ---
 
 <hr>

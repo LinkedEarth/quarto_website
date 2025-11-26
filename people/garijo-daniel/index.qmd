@@ -2,7 +2,7 @@
 title: &TITLE Daniel Garijo
 first: Daniel
 last: Garijo
-people_group: alumni
+people_group: pastmember
 email: "dgarijo@fi.upm.es"
 subtitle: Alumni, Universidad Politécnica de Madrid
 key_areas: "e-Science, semantic web, scientific workflows, provenance"

@@ -1,69 +1,50 @@
 ---
 title: "LinkedEarth Community"
 listing:
-  - id: pi
-    include: 
-      people_group: "pi"
+  - id: coreteam
+    include:
+      people_group: "coreteam"
     exclude:
       external: true
     template: ../_ejs/people-box.ejs
-    type: grid
-    fields: [title, subtitle, image, education]
+    sort: last
+    contents: "**/*.qmd"
+    fields: [title, subtitle, image]
   - id: researcher
-    include: 
+    include:
       people_group: "researcher"
     exclude:
       external: true
     template: ../_ejs/people-box.ejs
     sort: last
-    type: grid
-    fields: [title, subtitle, image, education]
-  - id: postdoc
-    include: 
-      people_group: "postdoc"
-    exclude:
-      external: true
-    template: ../_ejs/people-box.ejs
-    sort: last    
-    type: grid
-    fields: [title, subtitle, image, education]
+    contents: "**/*.qmd"
+    fields: [title, subtitle, image, key_areas]
   - id: gradstudent
-    include: 
+    include:
       people_group: "gradstudent"
     exclude:
       external: true
     template: ../_ejs/people-box.ejs
     sort: last
-    type: grid
-    fields: [title, subtitle, image, education]
-  - id: post-bac
-    include: 
-      people_group: "post-bac"
-    exclude:
-      external: true
-    template: ../_ejs/people-box.ejs
-    sort: last
-    type: grid
-    fields: [title, subtitle, image, education]
-  - id: alumni
-    include: 
-      people_group: "alumni"
+    contents: "**/*.qmd"
+    fields: [title, subtitle, image, key_areas]
+  - id: pastmember
+    include:
+      people_group: "pastmember"
     exclude:
       external: true
     template: ../_ejs/alumni-box.ejs
     sort: last
-    type: grid
-    fields: [title, subtitle, image, education, altsubtitle, alteducation]
+    contents: "**/*.qmd"
+    fields: [title, subtitle, image, key_areas]
 page-layout: full
 ---
 
 
-## Principal Investigator
+## Core Team
 
-
-::: {#pi}
+::: {#coreteam}
 :::
-
 
 :::{.background}
 
@@ -72,39 +53,20 @@ page-layout: full
 The people below are example entries from the original template. Replace with actual LinkedEarth community members.
 :::
 
-## Research Scientists
+:::
+
+## Current Members
 
 ::: {#researcher}
 :::
 
-:::
-
-## Postdoctoral Fellows
-
-::: {#postdoc}
-:::
-
-:::{.sand-background}
-## Graduate Students
-
-
-
 ::: {#gradstudent}
 :::
 
-:::
-
-<!-- ## Post Baccalaureate Researchers
-
-::: {#post-bac}
-::: -->
-
 :::{.sand-background}
-## Alumni
+## Past Members
 
-
-
-::: {#alumni}
+::: {#pastmember}
 :::
 
 :::

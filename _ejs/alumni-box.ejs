@@ -39,18 +39,24 @@
             
               
               <div class="listing-box-education">
-                
+
                 <% if (item.alteducation) { %>
                   <%= item.alteducation %><br>
                   <%} else { %>
                     <%= item.education %><br>
                     <% } %>
-                    
-              </div>  
-                  
 
-            
-            
+              </div>
+
+              <% if (item.key_areas) { %>
+              <div class="listing-box-key-areas">
+                <%= item.key_areas %>
+              </div>
+              <% } %>
+
+
+
+
           </div>  
         </div>  
       </a>

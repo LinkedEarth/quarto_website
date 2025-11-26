@@ -2,10 +2,11 @@
 title: &TITLE Feng Zhu
 first: Feng
 last: Zhu
-people_group: alumni
+people_group: pastmember
 email: ""
 subtitle: Alumni, University of Southern California
 key_areas: "Paleoclimate data assimilation; lead architect of the cfr package; Pyleoclim development"
+website: "https://staff.cgd.ucar.edu/fengzhu/"
 image: avatar.jpg
 listing:
   id: pubs

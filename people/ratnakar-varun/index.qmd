@@ -1,12 +1,12 @@
 ---
-title: &TITLE Alexander James
-first: Alexander
-last: James
-people_group: pastmember
+title: &TITLE Varun Ratnakar
+first: Varun
+last: Ratnakar
+people_group: researcher
 email: ""
-subtitle: Alumni, University of Southern California
-key_areas: "Paleoclimatology, Nonlinear timeseries analysis, Pyleoclim & Ammonyte development"
-website: "https://www.deepbluegeophysics.com/about"
+subtitle: Research Scientist, Karya Limited
+key_areas: ""
+website: "https://uk.linkedin.com/in/varun-ratnakar-2b537a78"
 image: avatar.jpg
 listing:
   id: pubs
@@ -25,6 +25,10 @@ about:
   template: trestles
   image-shape: round
   image: avatar.jpg
+  links:
+    - icon: globe
+      text: Website
+      href: https://uk.linkedin.com/in/varun-ratnakar-2b537a78
 ---
 
 <hr>

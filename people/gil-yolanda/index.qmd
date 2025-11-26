@@ -2,7 +2,7 @@
 title: &TITLE Yolanda Gil
 first: Yolanda
 last: Gil
-people_group: alumni
+people_group: pastmember
 email: "gil@isi.edu"
 subtitle: Former PI, Information Sciences Institute
 key_areas: "AI for science, semantic workflows, knowledge capture"

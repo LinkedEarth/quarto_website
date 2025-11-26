@@ -43,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea1d7ac60288e0f1efdbc993fd8432ae.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-538fad74b271e3d039c4c82b9f9b2b38.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8a1f08b072f19fb7b30447058aacc4ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,20 +74,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-pi .list');
+    const listingTargetEl = window.document.querySelector('#listing-coreteam .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-description","listing-affiliation","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-first","listing-last","listing-people_group","listing-email","listing-subtitle","listing-key_areas","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-pi'] = new List('listing-pi', options);
+    window['quarto-listings']['listing-coreteam'] = new List('listing-coreteam', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -109,41 +109,13 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-key_areas',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-subtitle","listing-people_group","listing-email","listing-education","listing-description","listing-image","listing-page-layout","listing-listing","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-first","listing-last","listing-people_group","listing-email","listing-subtitle","listing-key_areas","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-researcher'] = new List('listing-researcher', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-postdoc .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-image","listing-page-layout","listing-listing","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-postdoc'] = new List('listing-postdoc', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -165,9 +137,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-key_areas',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-first","listing-last","listing-people_group","listing-education","listing-email","listing-subtitle","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-affiliation","listing-degrees"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-first","listing-last","listing-people_group","listing-email","listing-subtitle","listing-key_areas","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -186,48 +158,20 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-post-bac .list');
+    const listingTargetEl = window.document.querySelector('#listing-pastmember .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-image','listing-key_areas',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-first","listing-last","listing-people_group","listing-email","listing-subtitle","listing-key_areas","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-post-bac'] = new List('listing-post-bac', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-alumni .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-image','listing-education','listing-altsubtitle','listing-alteducation',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-last","listing-first","listing-people_group","listing-email","listing-education","listing-subtitle","listing-description","listing-image","listing-listing","listing-page-layout","listing-about","listing-path","listing-outputHref","listing-author","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-altsubtitle","listing-alteducation"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-alumni'] = new List('listing-alumni', options);
+    window['quarto-listings']['listing-pastmember'] = new List('listing-pastmember', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -273,10 +217,8 @@ window.Quarto = {
 </script>
 
 <meta name="twitter:title" content="LinkedEarth Community – LinkedEarth">
-<meta name="twitter:image" content="https://linkedearth.github.io/quarto_website/people/masiello-david/avatar.png">
-<meta name="twitter:image:alt" content="David J. Masiello">
-<meta name="twitter:image-height" content="1970">
-<meta name="twitter:image-width" content="1976">
+<meta name="twitter:image" content="https://linkedearth.github.io/quarto_website/people/emile-geay-julien/julien.jpg">
+<meta name="twitter:image:alt" content="Julien Emile-Geay">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -299,8 +241,8 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about/index.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../data/index.html"> 
@@ -318,6 +260,10 @@ window.Quarto = {
     <a class="nav-link" href="../training/index.html"> 
 <span class="menu-text">Training</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../funding/index.html"> 
+<span class="menu-text">Funding</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -334,10 +280,9 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#principal-investigator" id="toc-principal-investigator" class="nav-link active" data-scroll-target="#principal-investigator">Principal Investigator</a></li>
-  <li><a href="#postdoctoral-fellows" id="toc-postdoctoral-fellows" class="nav-link" data-scroll-target="#postdoctoral-fellows">Postdoctoral Fellows</a></li>
-  <li><a href="#graduate-students" id="toc-graduate-students" class="nav-link" data-scroll-target="#graduate-students">Graduate Students</a></li>
-  <li><a href="#alumni" id="toc-alumni" class="nav-link" data-scroll-target="#alumni">Alumni</a></li>
+  <li><a href="#core-team" id="toc-core-team" class="nav-link active" data-scroll-target="#core-team">Core Team</a></li>
+  <li><a href="#current-members" id="toc-current-members" class="nav-link" data-scroll-target="#current-members">Current Members</a></li>
+  <li><a href="#past-members" id="toc-past-members" class="nav-link" data-scroll-target="#past-members">Past Members</a></li>
   </ul>
 </nav>
     </div>
@@ -363,47 +308,151 @@ window.Quarto = {
 </header>
 
 
-<section id="principal-investigator" class="level2">
-<h2 class="anchored" data-anchor-id="principal-investigator">Principal Investigator</h2>
-<div id="listing-pi" class="quarto-listing quarto-listing-container-custom">
+<section id="core-team" class="level2">
+<h2 class="anchored" data-anchor-id="core-team">Core Team</h2>
+<div id="listing-coreteam" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
   
   <div class="list grid quarto-listing-cols-3"> 
 
-     
     
+
     <div class="g-col-1 listing-box">
+
       
+      <a href="https://dornsife.usc.edu/profile/julien-emile-geay/" role="button" class="quarto-grid-link" target="_blank" rel="noopener noreferrer">
       
-      
-      <a href="../people/masiello-david/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
           
           
           <p class="card-img-top">
-            <img alt="David J. Masiello" src="../people/masiello-david/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+            <img alt="Julien Emile-Geay" src="../people/emile-geay-julien/julien.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
           </p>
           
           <div class="card-body post-contents">
             
             <div class="listing-box-title">
-              David J. Masiello<br> 
+              <strong>Julien Emile-Geay</strong><br>
             </div>
                
             <div class="listing-box-subtitle">
-              Professor of Chemistry <br> Adjunct Professor of Materials Science and Engineering <br> Adjunct Professor of Applied Mathematics<br>
+              Department of Earth Sciences, University of Southern California<br>
             </div>
                 
             
               
               <div class="listing-box-education">
+
                 
-                
-                  Ph.D. Chemical Physics | University of Florida | 2004 <br> B.S. Mathematics | University of Florida | 1999<br>
-                  
+                    <p>  </p>
                     
-              </div>  
+
+              </div>
+
+              
+              <div class="listing-box-key-areas">
+                Climate dynamics, data analysis, open science
+              </div>
+                
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+    
+
+    <div class="g-col-1 listing-box">
+
+      
+      <a href="https://knowledgecaptureanddiscovery.github.io/authors/deborah-khider/" role="button" class="quarto-grid-link" target="_blank" rel="noopener noreferrer">
+      
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Deborah Khider" src="../people/khider-deborah/deborah.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              <strong>Deborah Khider</strong><br>
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Information Sciences Institute, University of Southern California<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+
+                
+                    <p>  </p>
+                    
+
+              </div>
+
+              
+              <div class="listing-box-key-areas">
+                Paleoclimatology, data science, AI, open science
+              </div>
+                
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+    
+
+    <div class="g-col-1 listing-box">
+
+      
+      <a href="https://nickmckay.org" role="button" class="quarto-grid-link" target="_blank" rel="noopener noreferrer">
+      
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Nick McKay" src="../people/mckay-nick/nick.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              <strong>Nick McKay</strong><br>
+            </div>
+               
+            <div class="listing-box-subtitle">
+              School of Earth and Sustainability, Northern Arizona University<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+
+                
+                    <p>  </p>
+                    
+
+              </div>
+
+              
+              <div class="listing-box-key-areas">
+                Paleoclimatology, data analysis, age modeling
+              </div>
+                
                   
 
             
@@ -435,47 +484,141 @@ window.Quarto = {
 <p>The people below are example entries from the original template. Replace with actual LinkedEarth community members.</p>
 </div>
 </div>
-<section id="research-scientists" class="level2">
-<h2 class="anchored" data-anchor-id="research-scientists">Research Scientists</h2>
+</div>
+</section>
+<section id="current-members" class="level2">
+<h2 class="anchored" data-anchor-id="current-members">Current Members</h2>
 <div id="listing-researcher" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
   
   <div class="list grid quarto-listing-cols-3"> 
 
-     
     
+
     <div class="g-col-1 listing-box">
+
       
+      <a href="https://directory.nau.edu/departments?id=10200&amp;person=dce25&amp;src=cefns" role="button" class="quarto-grid-link" target="_blank" rel="noopener noreferrer">
       
-      
-      <a href="../people/bourgeois-marc/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
           
           
           <p class="card-img-top">
-            <img alt="Marc R. Bourgeois" src="../people/bourgeois-marc/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+            <img alt="David Edge" src="../people/edge-david/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
           </p>
           
           <div class="card-body post-contents">
             
             <div class="listing-box-title">
-              Marc R. Bourgeois<br> 
+              <strong>David Edge</strong><br>
             </div>
                
             <div class="listing-box-subtitle">
-              Research Scientist<br>
+              Research Scientist, Northern Arizona University<br>
             </div>
                 
             
               
               <div class="listing-box-education">
+
                 
-                
-                  Ph.D. Chemistry | Northwestern University <br> M.S. Physics | University of Arizona <br> B.A. Physics, Mathematics, and Integrated Sciences | Northwestern University<br>
-                  
+                    <p>  </p>
                     
-              </div>  
+
+              </div>
+
+                
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+    
+
+    <div class="g-col-1 listing-box">
+
+      
+      <a href="https://www.michaelerb.org" role="button" class="quarto-grid-link" target="_blank" rel="noopener noreferrer">
+      
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Michael Erb" src="../people/erb-michael/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              <strong>Michael Erb</strong><br>
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Research Scientist, Northern Arizona University<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+
+                
+                    <p>  </p>
+                    
+
+              </div>
+
+                
+                  
+
+            
+            
+          </div>  
+        </div>  
+      </a>
+      
+    </div>
+  
+    
+
+    <div class="g-col-1 listing-box">
+
+      
+      <a href="https://uk.linkedin.com/in/varun-ratnakar-2b537a78" role="button" class="quarto-grid-link" target="_blank" rel="noopener noreferrer">
+      
+        <div class="quarto-grid-item card h-100 card-left">
+          
+          
+          <p class="card-img-top">
+            <img alt="Varun Ratnakar" src="../people/ratnakar-varun/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+          </p>
+          
+          <div class="card-body post-contents">
+            
+            <div class="listing-box-title">
+              <strong>Varun Ratnakar</strong><br>
+            </div>
+               
+            <div class="listing-box-subtitle">
+              Research Scientist, Karya Limited<br>
+            </div>
+                
+            
+              
+              <div class="listing-box-education">
+
+                
+                    <p>  </p>
+                    
+
+              </div>
+
+                
                   
 
             
@@ -493,109 +636,51 @@ window.Quarto = {
 
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
-</section>
-</div>
-</section>
-<section id="postdoctoral-fellows" class="level2">
-<h2 class="anchored" data-anchor-id="postdoctoral-fellows">Postdoctoral Fellows</h2>
-<div id="listing-postdoc" class="quarto-listing quarto-listing-container-custom">
-
-<div class="quarto-listing quarto-listing-container-grid">
-  
-  <div class="list grid quarto-listing-cols-3"> 
-
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/tiwari-vishal/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Vishal Tiwari" src="../people/tiwari-vishal/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Vishal Tiwari<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-              Postdoctoral Fellow<br>
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                  Ph.D. Chemistry | University of Rochester<br>
-                  
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-    
-  
-</div>
-</div>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-</section>
-<section id="graduate-students" class="level2 sand-background">
-<h2 class="anchored" data-anchor-id="graduate-students">Graduate Students</h2>
 <div id="listing-gradstudent" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
   
   <div class="list grid quarto-listing-cols-3"> 
 
-     
     
+
     <div class="g-col-1 listing-box">
+
       
+      <a href="[object Object]" role="button" class="quarto-grid-link" target="_blank" rel="noopener noreferrer">
       
-      
-      <a href="../people/chalifour-matthieu/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
           
           
           <p class="card-img-top">
-            <img alt="Matthieu Chalifour" src="../people/chalifour-matthieu/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+            <img alt="Tanaya Gondhalekar" src="../people/gondhalekar-tanaya/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
           </p>
           
           <div class="card-body post-contents">
             
             <div class="listing-box-title">
-              Matthieu Chalifour<br> 
+              <strong>Tanaya Gondhalekar</strong><br>
             </div>
                
             <div class="listing-box-subtitle">
-              Graduate Student, Physics<br>
+              Graduate Student, University of Southern California<br>
             </div>
                 
             
               
               <div class="listing-box-education">
+
                 
-                
-                  B.S. Physics | Swarthmore College<br>
-                  
+                    <p>  </p>
                     
-              </div>  
+
+              </div>
+
+              
+              <div class="listing-box-key-areas">
+                Paleoclimate data assimilation, proxy system modeling
+              </div>
+                
                   
 
             
@@ -606,39 +691,45 @@ window.Quarto = {
       
     </div>
   
-     
     
+
     <div class="g-col-1 listing-box">
+
       
+      <a href="[object Object]" role="button" class="quarto-grid-link" target="_blank" rel="noopener noreferrer">
       
-      
-      <a href="../people/guo-xiaofei/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
           
           
           <p class="card-img-top">
-            <img alt="Xiaofei Guo" src="../people/guo-xiaofei/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+            <img alt="Jordan Landers" src="../people/landers-jordan/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
           </p>
           
           <div class="card-body post-contents">
             
             <div class="listing-box-title">
-              Xiaofei Guo<br> 
+              <strong>Jordan Landers</strong><br>
             </div>
                
             <div class="listing-box-subtitle">
-              Graduate Student, Chemistry<br>
+              Graduate Student, University of Southern California<br>
             </div>
                 
             
               
               <div class="listing-box-education">
+
                 
-                
-                  B.S. Chemistry | Bard College<br>
-                  
+                    <p>  </p>
                     
-              </div>  
+
+              </div>
+
+              
+              <div class="listing-box-key-areas">
+                Paleoclimatology, causal inference, PaleoBooks, Pyleoclim development
+              </div>
+                
                   
 
             
@@ -649,125 +740,45 @@ window.Quarto = {
       
     </div>
   
-     
     
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/khorasani-siamak/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Siamak Khorasani" src="../people/khorasani-siamak/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Siamak Khorasani<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-              Graduate Student, Materials Science &amp; Engineering<br>
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                  M.S. Nanoengineering | Joint School of Nanoscience and Nanoengineering<br>
-                  
-                    
-              </div>  
-                  
 
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
     <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/moser-kevin/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Kevin Moser" src="../people/moser-kevin/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Kevin Moser<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-              Graduate Student, Chemistry<br>
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                  B.S. Physics | University of Michigan<br>
-                  
-                    
-              </div>  
-                  
 
-            
-            
-          </div>  
-        </div>  
-      </a>
       
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
+      <a href="[object Object]" role="button" class="quarto-grid-link" target="_blank" rel="noopener noreferrer">
       
-      
-      
-      <a href="../people/rossi-andrew/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
           
           
           <p class="card-img-top">
-            <img alt="Andrew W. Rossi" src="../people/rossi-andrew/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+            <img alt="Maryam Niati" src="../people/niati-maryam/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
           </p>
           
           <div class="card-body post-contents">
             
             <div class="listing-box-title">
-              Andrew W. Rossi<br> 
+              <strong>Maryam Niati</strong><br>
             </div>
                
             <div class="listing-box-subtitle">
-              Graduate Student, Chemistry<br>
+              Graduate Student, University of Southern California<br>
             </div>
                 
             
               
               <div class="listing-box-education">
+
                 
-                
-                  B.S. Chemistry | The Ohio State University<br>
-                  
+                    <p>  </p>
                     
-              </div>  
+
+              </div>
+
+              
+              <div class="listing-box-key-areas">
+                Paleoclimatology, Tipping Point detection, Ammonyte
+              </div>
+                
                   
 
             
@@ -786,13 +797,9 @@ window.Quarto = {
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
 </section>
-<!-- ## Post Baccalaureate Researchers
-
-::: {#post-bac}
-::: -->
-<section id="alumni" class="level2 sand-background">
-<h2 class="anchored" data-anchor-id="alumni">Alumni</h2>
-<div id="listing-alumni" class="quarto-listing quarto-listing-container-custom">
+<section id="past-members" class="level2 sand-background">
+<h2 class="anchored" data-anchor-id="past-members">Past Members</h2>
+<div id="listing-pastmember" class="quarto-listing quarto-listing-container-custom">
 
 <div class="quarto-listing quarto-listing-container-grid">
   
@@ -804,24 +811,24 @@ window.Quarto = {
       
       
       
-      <a href="../people/anyanwu-praise/index.html" role="button" class="quarto-grid-link">
+      <a href="../people/garijo-daniel/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
           
           
           <p class="card-img-top">
-            <img alt="C. Praise Anyanwu" src="../people/anyanwu-praise/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+            <img alt="Daniel Garijo" src="../people/garijo-daniel/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
           </p>
           
           <div class="card-body post-contents">
             
             <div class="listing-box-title">
-              C. Praise Anyanwu<br> 
+              Daniel Garijo<br> 
             </div>
                
             <div class="listing-box-subtitle">
 
               
-                  Graduate Student, Chemistry<br>
+                  Alumni, Universidad Politécnica de Madrid<br>
                   
 
             </div>
@@ -829,16 +836,19 @@ window.Quarto = {
             
               
               <div class="listing-box-education">
-                
-                
-                    Ph.D. Chemistry | University of Washington<br>
-                    
-                    
-              </div>  
-                  
 
-            
-            
+                
+                    <br>
+                    
+
+              </div>
+
+              
+              <div class="listing-box-key-areas">
+                e-Science, semantic web, scientific workflows, provenance
+              </div>
+              
+
           </div>  
         </div>  
       </a>
@@ -851,41 +861,44 @@ window.Quarto = {
       
       
       
-      <a href="../people/beutler-elliot/index.html" role="button" class="quarto-grid-link">
+      <a href="../people/gil-yolanda/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
           
           
           <p class="card-img-top">
-            <img alt="Elliot K. Beutler" src="../people/beutler-elliot/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+            <img alt="Yolanda Gil" src="../people/gil-yolanda/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
           </p>
           
           <div class="card-body post-contents">
             
             <div class="listing-box-title">
-              Elliot K. Beutler<br> 
+              Yolanda Gil<br> 
             </div>
                
             <div class="listing-box-subtitle">
 
               
-                Postdoctoral Fellow | Graduate Student<br>
-                
+                  Former PI, Information Sciences Institute<br>
+                  
 
             </div>
                 
             
               
               <div class="listing-box-education">
-                
-                
-                  Ph.D. Chemistry | University of Washington<br>
-                  
-                    
-              </div>  
-                  
 
-            
-            
+                
+                    <br>
+                    
+
+              </div>
+
+              
+              <div class="listing-box-key-areas">
+                AI for science, semantic workflows, knowledge capture
+              </div>
+              
+
           </div>  
         </div>  
       </a>
@@ -898,24 +911,24 @@ window.Quarto = {
       
       
       
-      <a href="../people/bhattacharya-aniruddha/index.html" role="button" class="quarto-grid-link">
+      <a href="../people/james-alexander/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
           
           
           <p class="card-img-top">
-            <img alt="Aniruddha Bhattacharya" src="../people/bhattacharya-aniruddha/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+            <img alt="Alexander James" src="../people/james-alexander/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
           </p>
           
           <div class="card-body post-contents">
             
             <div class="listing-box-title">
-              Aniruddha Bhattacharya<br> 
+              Alexander James<br> 
             </div>
                
             <div class="listing-box-subtitle">
 
               
-                  Postdoctoral Fellow<br>
+                  Alumni, University of Southern California<br>
                   
 
             </div>
@@ -923,16 +936,19 @@ window.Quarto = {
             
               
               <div class="listing-box-education">
-                
-                
-                    Ph.D. Electrical Engineering | University of Michigan<br>
-                    
-                    
-              </div>  
-                  
 
-            
-            
+                
+                    <br>
+                    
+
+              </div>
+
+              
+              <div class="listing-box-key-areas">
+                Paleoclimatology, Nonlinear timeseries analysis, Pyleoclim &amp; Ammonyte development
+              </div>
+              
+
           </div>  
         </div>  
       </a>
@@ -945,24 +961,24 @@ window.Quarto = {
       
       
       
-      <a href="../people/bigelow-nicholas/index.html" role="button" class="quarto-grid-link">
+      <a href="../people/rouston-cody/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
           
           
           <p class="card-img-top">
-            <img alt="Nicholas W. Bigelow" src="../people/bigelow-nicholas/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+            <img alt="Cody Rouston" src="../people/rouston-cody/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
           </p>
           
           <div class="card-body post-contents">
             
             <div class="listing-box-title">
-              Nicholas W. Bigelow<br> 
+              Cody Rouston<br> 
             </div>
                
             <div class="listing-box-subtitle">
 
               
-                  Graduate Student<br>
+                  Alumni, Northern Arizona University<br>
                   
 
             </div>
@@ -970,16 +986,15 @@ window.Quarto = {
             
               
               <div class="listing-box-education">
-                
-                
-                    Ph.D. Chemistry | University of Washington<br>
-                    
-                    
-              </div>  
-                  
 
-            
-            
+                
+                    <br>
+                    
+
+              </div>
+
+              
+
           </div>  
         </div>  
       </a>
@@ -992,24 +1007,24 @@ window.Quarto = {
       
       
       
-      <a href="../people/busche-jacob/index.html" role="button" class="quarto-grid-link">
+      <a href="../people/zhu-feng/index.html" role="button" class="quarto-grid-link">
         <div class="quarto-grid-item card h-100 card-left">
           
           
           <p class="card-img-top">
-            <img alt="Jacob A. Busche" src="../people/busche-jacob/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
+            <img alt="Feng Zhu" src="../people/zhu-feng/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
           </p>
           
           <div class="card-body post-contents">
             
             <div class="listing-box-title">
-              Jacob A. Busche<br> 
+              Feng Zhu<br> 
             </div>
                
             <div class="listing-box-subtitle">
 
               
-                  Graduate Student<br>
+                  Alumni, University of Southern California<br>
                   
 
             </div>
@@ -1017,580 +1032,19 @@ window.Quarto = {
             
               
               <div class="listing-box-education">
-                
-                
-                    Ph.D. Chemistry | University of Washington<br>
-                    
-                    
-              </div>  
-                  
 
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/cherqui-charles/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Charles Cherqui" src="../people/cherqui-charles/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Charles Cherqui<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
+                
+                    <br>
+                    
+
+              </div>
 
               
-                  Postdoctoral Fellow<br>
-                  
-
-            </div>
-                
-            
+              <div class="listing-box-key-areas">
+                Paleoclimate data assimilation; lead architect of the cfr package; Pyleoclim development
+              </div>
               
-              <div class="listing-box-education">
-                
-                
-                    Ph.D. Physics | University of New Mexico &amp; Los Alamos National Laboratory<br>
-                    
-                    
-              </div>  
-                  
 
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/goldwyn-harrison/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Harrison J. Goldwyn" src="../people/goldwyn-harrison/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Harrison J. Goldwyn<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Graduate Student<br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    Ph.D. Chemistry | University of Washington<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/hu-zhongwei/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Zhongwei Hu" src="../people/hu-zhongwei/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Zhongwei Hu<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Postdoctoral Fellow<br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    Ph.D. Chemistry | Pennsylvania State University<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/kong-xiang-tian/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Xiang-Tian Kong" src="../people/kong-xiang-tian/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Xiang-Tian Kong<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Postdoctoral Fellow<br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    Ph.D. Physics | Nankai University<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/montoni-nicholas/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Nicholas P. Montoni" src="../people/montoni-nicholas/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Nicholas P. Montoni<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Graduate Student<br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    Ph.D. Chemistry | University of Washington<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/nixon-austin/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Austin G. Nixon" src="../people/nixon-austin/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Austin G. Nixon<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Graduate Student, Chemistry<br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    Ph.D. Chemistry | University of Washington<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/qian-zhaoxia/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Zhaoxia Qian" src="../people/qian-zhaoxia/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Zhaoxia Qian<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Postdoctoral Fellow<br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    Ph.D. Chemistry | University of Pennsylvania<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/quillin-steven/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Steven C. Quillin" src="../people/quillin-steven/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Steven C. Quillin<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Graduate Student<br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    Ph.D. Chemistry | University of Washington<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/sanchez-michael/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Michael Sanchez" src="../people/sanchez-michael/avatar.png" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Michael Sanchez<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Post Baccalaureate Researcher <br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    B.S. Physics | University of Washington<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/smith-kevin/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Kevin C. Smith" src="../people/smith-kevin/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Kevin C. Smith<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Graduate Student<br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    Ph.D. Physics | University of Washington<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/thakkar-niket/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Niket Thakkar" src="../people/thakkar-niket/avatar.jpeg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Niket Thakkar<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Graduate Student<br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    Ph.D. Applied Mathematics | University of Washington<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
-          </div>  
-        </div>  
-      </a>
-      
-    </div>
-  
-     
-    
-    <div class="g-col-1 listing-box">
-      
-      
-      
-      <a href="../people/west-claire/index.html" role="button" class="quarto-grid-link">
-        <div class="quarto-grid-item card h-100 card-left">
-          
-          
-          <p class="card-img-top">
-            <img alt="Claire A. West" src="../people/west-claire/avatar.jpg" class="thumbnail-image card-img listing-box-image" style="height" 150px;"="">
-          </p>
-          
-          <div class="card-body post-contents">
-            
-            <div class="listing-box-title">
-              Claire A. West<br> 
-            </div>
-               
-            <div class="listing-box-subtitle">
-
-              
-                  Graduate Student<br>
-                  
-
-            </div>
-                
-            
-              
-              <div class="listing-box-education">
-                
-                
-                    Ph.D. Chemistry | University of Washington<br>
-                    
-                    
-              </div>  
-                  
-
-            
-            
           </div>  
         </div>  
       </a>
@@ -1609,19 +1063,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-post-bac">
-
-<div class="quarto-listing quarto-listing-container-grid">
-  
-  <div class="list grid quarto-listing-cols-3"> 
-
-    
-  
-</div>
-</div>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -2033,7 +1475,7 @@ window.Quarto = {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>© 2024 LinkedEarth · Made with <a href="https://quarto.org/"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
+<p>© 2025 LinkedEarth · Made with <a href="https://quarto.org/"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="65"></a></p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">

@@ -1,12 +1,12 @@
 ---
-title: &TITLE Alexander James
-first: Alexander
-last: James
-people_group: pastmember
+title: &TITLE David Edge
+first: David
+last: Edge
+people_group: researcher
 email: ""
-subtitle: Alumni, University of Southern California
-key_areas: "Paleoclimatology, Nonlinear timeseries analysis, Pyleoclim & Ammonyte development"
-website: "https://www.deepbluegeophysics.com/about"
+subtitle: Research Scientist, Northern Arizona University
+key_areas: ""
+website: "https://directory.nau.edu/departments?id=10200&person=dce25&src=cefns"
 image: avatar.jpg
 listing:
   id: pubs
@@ -25,6 +25,10 @@ about:
   template: trestles
   image-shape: round
   image: avatar.jpg
+  links:
+    - icon: globe
+      text: Website
+      href: https://directory.nau.edu/departments?id=10200&person=dce25&src=cefns
 ---
 
 <hr>
