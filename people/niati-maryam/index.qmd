@@ -5,7 +5,7 @@ last: Niati
 people_group: gradstudent
 email: ""
 subtitle: Graduate Student, University of Southern California
-key_areas: "Paleoclimatology"
+key_areas: "Paleoclimatology, Tipping Point detection, Ammonyte"
 image: avatar.jpg
 listing:
   id: pubs

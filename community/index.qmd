@@ -7,12 +7,13 @@ listing:
     type: grid
     grid-columns: 3
     template: ../_ejs/people-box.ejs
-    fields: [image, title, subtitle, key_areas, website]
+    fields: [image, title, subtitle, key_areas, website, last]
     field-display-names:
       title: "Name"
       subtitle: "Role"
       key_areas: "Key Areas"
     categories: false
+    sort: "last"
     sort-ui: false
     filter-ui: false
     include:
@@ -23,12 +24,13 @@ listing:
     type: grid
     grid-columns: 3
     template: ../_ejs/people-box.ejs
-    fields: [image, title, subtitle, key_areas, website]
+    fields: [image, title, subtitle, key_areas, website, last]
     field-display-names:
       title: "Name"
       subtitle: "Role"
       key_areas: "Key Areas"
     categories: false
+    sort: "last"
     sort-ui: false
     filter-ui: false
     include:
@@ -39,12 +41,13 @@ listing:
     type: grid
     grid-columns: 3
     template: ../_ejs/people-box.ejs
-    fields: [image, title, subtitle, key_areas, website]
+    fields: [image, title, subtitle, key_areas, website, last]
     field-display-names:
       title: "Name"
       subtitle: "Role"
       key_areas: "Key Areas"
     categories: false
+    sort: "last"
     sort-ui: false
     filter-ui: false
     include:
@@ -74,11 +77,14 @@ The LinkedEarth community brings together researchers, data scientists, and pale
 
 LinkedEarth collaborates with several working groups and initiatives:
 
-- [**PAGES2k**](https://pastglobalchanges.org) - Past Global Changes 2k Network
-- [**Iso2k**](https://pastglobalchanges.org) - Isotopes 2k Network
-- [**CoralHydro2k**](https://pastglobalchanges.org) - Coral Hydro 2k Network
+- [**PAGES2k**](https://pastglobalchanges.org/science/wg/2k-network/intro) - Past Global Changes 2k Network
+- [**Iso2k**](https://pastglobalchanges.org/science/wg/2k-network/Phase_3_Databases/Iso2k) - Isotopes 2k Network
+- [**CoralHydro2k**](https://pastglobalchanges.org/science/wg/2k-network/projects/coral-hydro/intro) - Coral Hydro 2k Network
 - [**Temp12k**](https://doi.org/10.1038/s41597-020-0445-3) - Temperature 12k Database
-- [**PALMOD**](https://doi.org/10.5194/essd-12-1053-2020) - Paleoclimate Modelling
+- [**PALMOD**](https://doi.org/10.5194/essd-12-1053-2020) - Data Compilation supporting the [PalMod project](https://www.palmod.de)
 
 ### Participate
 
+Please join our [Discourse forum](https://discourse.linked.earth/) to ask questions and get support on all things LinkedEarth.  You can also [email us](mailto:linkedearth@gmail.com) to get added to the LinkedEarth Community Slack workspace. 
+
+ If you wish to report bugs or suggest enhancements to our software, please [open an issue on GitHub](https://www.youtube.com/watch?v=6HWw7rhwvtY); for instance, [here](https://github.com/LinkedEarth/Pyleoclim_util/issues) for Pyleoclim. 

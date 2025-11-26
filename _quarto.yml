@@ -16,7 +16,7 @@ website:
   search: true
   page-footer:
     background: "#f8f9fa"
-    center: © 2024 LinkedEarth &middot; Made with
+    center: © 2025 LinkedEarth &middot; Made with
       [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
     right:
       - icon: github
@@ -31,8 +31,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: about/index.qmd
-        text: About
       - href: data/index.qmd
         text: Data
       - href: tools/index.qmd

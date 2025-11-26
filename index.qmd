@@ -16,7 +16,7 @@ A collaboratory for the future of past climates
 ::: {.welcome }
 
 ::: grid
-::: {.g-col-12 .g-col-lg-8 .welcome-text style="padding: 30px; background: white; border-radius: 10px;"}
+::: {.g-col-12 .g-col-lg-10 .welcome-text style="padding: 30px; background: white; border-radius: 10px;"}
 
 LinkedEarth is a community-driven initiative dedicated to advancing paleoclimate science through open data sharing, collaborative research, and digital tools. We bring together paleoclimate experts and data scientists to extract more information about Earth's past climates, with the goal of better informing its future.
 
@@ -26,17 +26,82 @@ PLACEHOLDER FOR WEBSEDGE VIDEO
 
 ### Offerings
 
-- **Data Cutaion**: Access to curated paleoclimate datasets with standardized formats
-- **Analysis Tools**: Software packages and tools for paleoclimate data analysis
-- **Community Support**: Collaborative environment for researchers and students
+- **Data Curation**: Access to curated paleoclimate datasets with standardized formats and nomenclature
+- **Analysis Tools**: Open-source software packages for paleoclimate data analysis
+- **Community Support**: Collaborative environment for researchers and students alike
 - **Training Resources**: Workshops, tutorials, and educational materials
 
 ### Get in touch
 
 Twitter https://twitter.com/Linked_Earth, BlueSky,
-Discourse https://discourse.linked.earth/ 
+Discourse https://discourse.linked.earth/
 
 Please [email us](mailto:linkedearth@gmail.com ) with any questions .
+
+### Latest from the CyberPaleo Blog
+
+Stay up to date with the latest developments in digital paleoscience. Read more on [Medium](https://medium.com/cyberpaleo).
+
+<div id="blog-posts" style="margin-top: 20px;">
+Loading latest posts...
+</div>
+
+<script>
+async function loadBlogPosts() {
+  try {
+    // Fetch RSS feed using CORS proxy
+    const response = await fetch('https://api.allorigins.win/get?url=' + encodeURIComponent('https://medium.com/feed/cyberpaleo'));
+    const data = await response.json();
+
+    // Parse XML
+    const parser = new DOMParser();
+    const xml = parser.parseFromString(data.contents, 'text/xml');
+
+    // Get items
+    const items = Array.from(xml.querySelectorAll('item')).slice(0, 3);
+
+    if (items.length > 0) {
+      const postsHtml = items.map((item, index) => {
+        const title = item.querySelector('title').textContent;
+        const link = item.querySelector('link').textContent;
+        const pubDate = new Date(item.querySelector('pubDate').textContent).toLocaleDateString('en-US', {
+          year: 'numeric',
+          month: 'long',
+          day: 'numeric'
+        });
+
+        // Get description and strip HTML
+        const descElement = item.querySelector('description');
+        let description = '';
+        if (descElement) {
+          const tempDiv = document.createElement('div');
+          tempDiv.innerHTML = descElement.textContent;
+          description = tempDiv.textContent.substring(0, 200) + '...';
+        }
+
+        return `
+          <div style="margin-bottom: 20px;">
+            <strong><a href="${link}" target="_blank" rel="noopener noreferrer">${title}</a></strong><br>
+            <em>${pubDate}</em><br>
+            ${description}
+          </div>
+          ${index < items.length - 1 ? '<hr style="margin: 20px 0;">' : ''}
+        `;
+      }).join('');
+
+      document.getElementById('blog-posts').innerHTML = postsHtml;
+    } else {
+      document.getElementById('blog-posts').innerHTML = 'Unable to load blog posts. Please visit <a href="https://medium.com/cyberpaleo" target="_blank">CyberPaleo on Medium</a>.';
+    }
+  } catch (error) {
+    console.error('Error loading blog posts:', error);
+    document.getElementById('blog-posts').innerHTML = 'Unable to load blog posts. Please visit <a href="https://medium.com/cyberpaleo" target="_blank">CyberPaleo on Medium</a>.';
+  }
+}
+
+// Load posts when page loads
+loadBlogPosts();
+</script>
 
 
 :::

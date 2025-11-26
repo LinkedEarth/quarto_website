@@ -5,7 +5,7 @@ last: Zhu
 people_group: alumni
 email: ""
 subtitle: Alumni, University of Southern California
-key_areas: "Paleoclimate data assimilation"
+key_areas: "Paleoclimate data assimilation; lead architect of the cfr package; Pyleoclim development"
 image: avatar.jpg
 listing:
   id: pubs

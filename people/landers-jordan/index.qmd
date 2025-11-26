@@ -5,7 +5,7 @@ last: Landers
 people_group: gradstudent
 email: ""
 subtitle: Graduate Student, University of Southern California
-key_areas: "Paleoclimatology"
+key_areas: "Paleoclimatology, causal inference, PaleoBooks, Pyleoclim development"
 image: avatar.jpg
 listing:
   id: pubs

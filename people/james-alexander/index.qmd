@@ -5,7 +5,7 @@ last: James
 people_group: alumni
 email: ""
 subtitle: Alumni, University of Southern California
-key_areas: "Paleoclimatology"
+key_areas: "Paleoclimatology, Nonlinear timeseries analysis, Pyleoclim & Ammonyte development"
 image: avatar.jpg
 listing:
   id: pubs
