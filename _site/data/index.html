@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea1d7ac60288e0f1efdbc993fd8432ae.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-8a1f08b072f19fb7b30447058aacc4ef.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-d3707eff952326b2051fa950e6a2dba4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -137,8 +137,9 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#linkedearth-data-resources" id="toc-linkedearth-data-resources" class="nav-link active" data-scroll-target="#linkedearth-data-resources">LinkedEarth Data Resources</a>
   <ul class="collapse">
-  <li><a href="#available-datasets" id="toc-available-datasets" class="nav-link" data-scroll-target="#available-datasets">Available Datasets</a></li>
   <li><a href="#data-standards" id="toc-data-standards" class="nav-link" data-scroll-target="#data-standards">Data Standards</a></li>
+  <li><a href="#data-conversion" id="toc-data-conversion" class="nav-link" data-scroll-target="#data-conversion">Data Conversion</a></li>
+  <li><a href="#data-compilations" id="toc-data-compilations" class="nav-link" data-scroll-target="#data-compilations">Data Compilations</a></li>
   <li><a href="#how-to-contribute-data" id="toc-how-to-contribute-data" class="nav-link" data-scroll-target="#how-to-contribute-data">How to Contribute Data</a></li>
   </ul></li>
   </ul>
@@ -168,18 +169,27 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="linkedearth-data-resources" class="level2">
 <h2 class="anchored" data-anchor-id="linkedearth-data-resources">LinkedEarth Data Resources</h2>
-<p>[Add information about data repositories, datasets, and access]</p>
-<section id="available-datasets" class="level3">
-<h3 class="anchored" data-anchor-id="available-datasets">Available Datasets</h3>
-<p>[List or link to available datasets]</p>
-</section>
+<p>LinkedEarth develops data standards and curates compilations for paleoclimate information through community collaboration and NSF support.</p>
 <section id="data-standards" class="level3">
 <h3 class="anchored" data-anchor-id="data-standards">Data Standards</h3>
-<p>[Information about data standards and formats]</p>
+<p>LinkedEarth got started because of how impractical it was (back in 2015 or so) to work with paleoclimate data. Since then, we have created comprehensive data standards. These standards comprise three key elements:</p>
+<ul>
+<li><p><strong>Data Representation</strong>: The <a href="https://lipd.net">LiPD format</a> and its associated <a href="http://linked.earth/ontology/#">LinkedEarth Ontology</a> provide structural organization for paleoclimate datasets.</p></li>
+<li><p><strong>Standard Vocabulary</strong>: NOAA developed the <a href="https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/past-thesaurus">PaST Thesaurus</a> to establish consistent terminology across the field. ADD Lipdverse vocabs</p></li>
+<li><p><strong>Reporting Guidelines</strong>: The <a href="https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019PA003632">PaCTS standard</a> specifies crowdsourced guidelines for reporting paleoclimate data. This collaborative effort involved over 135 international researchers and received <a href="https://eos.org/research-spotlights/standardizing-the-surge-of-paleoclimate-data">recognition from the American Geophysical Union</a>, at its <a href="https://www.youtube.com/watch?v=cjkSGnlNwX0&amp;list=PL7Ihm2Mh3MZ5ff8PVBZ3dBLYQdwZLQlEY&amp;index=33">2019 annual meeting plenary session</a>.</p></li>
+</ul>
+</section>
+<section id="data-conversion" class="level3">
+<h3 class="anchored" data-anchor-id="data-conversion">Data Conversion</h3>
+<p>One of the major hurdles to standardize paleoclimate datasets is getting them into the LiPD format. To aid this process, we created the <a href="https://lipd.net/playground">LiPD Playground</a>, a web interface that allows users to easily create LiPD files. The system incorporates <a href="https://paleorec.readthedocs.io/en/latest/index.html">PaleoRec</a>, a <a href="https://www.cambridge.org/core/journals/environmental-data-science/article/paleorec-a-sequential-recommender-system-for-the-annotation-of-paleoclimate-datasets/30B71DFD01C99A3773B4CEAAB2497B2D">recommendation tool employing deep learning</a> to assist with metadata completion during dataset annotation.</p>
+</section>
+<section id="data-compilations" class="level3">
+<h3 class="anchored" data-anchor-id="data-compilations">Data Compilations</h3>
+<p><a href="https://lipdverse.org">LiPDverse</a> serves as a repository housing datasets formatted according to LiPD standards. The collection features datasets in the LiPD format, which are also available through a <a href="https://linkedearth.graphdb.mint.isi.edu">graph interface</a>. Much of the content originated from PAGES collaborations with community-vetted metadata. The platform enables straightforward querying and visualization capabilities for paleoclimate information.</p>
 </section>
 <section id="how-to-contribute-data" class="level3">
 <h3 class="anchored" data-anchor-id="how-to-contribute-data">How to Contribute Data</h3>
-<p>[Guidelines for contributing data to LinkedEarth]</p>
+<p>To contribute data to LinkedEarth, please use the <a href="http://lipd.net/playground">LiPD Playground</a> to format your dataset or contact us at <a href="mailto:linkedearth@gmail.com">linkedearth@gmail.com</a> for assistance.</p>
 
 
 </section>

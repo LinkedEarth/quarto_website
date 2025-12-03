@@ -6,7 +6,7 @@ people_group: gradstudent
 email: ""
 subtitle: Graduate Student, University of Southern California
 key_areas: "Paleoclimatology, causal inference, PaleoBooks, Pyleoclim development"
-image: avatar.jpg
+image: jordan.jpeg
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs
@@ -23,7 +23,7 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.jpg
+  image: jordan.jpeg
 ---
 
 <hr>

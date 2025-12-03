@@ -4,16 +4,25 @@ title: "Data"
 
 ## LinkedEarth Data Resources
 
-[Add information about data repositories, datasets, and access]
-
-### Available Datasets
-
-[List or link to available datasets]
+LinkedEarth develops data standards and curates compilations for paleoclimate information through community collaboration and NSF support.
 
 ### Data Standards
 
-[Information about data standards and formats]
+LinkedEarth got started because of how impractical it was (back in 2015 or so) to work with paleoclimate data. Since then, we have created comprehensive data standards. These standards comprise three key elements:
+
+- **Data Representation**: The [LiPD format](https://lipd.net) and its associated [LinkedEarth Ontology](http://linked.earth/ontology/#) provide structural organization for paleoclimate datasets.
+
+- **Standard Vocabulary**: NOAA developed the [PaST Thesaurus](https://www.ncdc.noaa.gov/data-access/paleoclimatology-data/past-thesaurus) to establish consistent terminology across the field. ADD Lipdverse vocabs
+
+- **Reporting Guidelines**: The [PaCTS standard](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2019PA003632) specifies crowdsourced guidelines for reporting paleoclimate data. This collaborative effort involved over 135 international researchers and received [recognition from the American Geophysical Union](https://eos.org/research-spotlights/standardizing-the-surge-of-paleoclimate-data), at its [2019 annual meeting plenary session](https://www.youtube.com/watch?v=cjkSGnlNwX0&list=PL7Ihm2Mh3MZ5ff8PVBZ3dBLYQdwZLQlEY&index=33). 
+
+### Data Conversion
+One of the major hurdles to standardize paleoclimate datasets is getting them into the LiPD format. To aid this process, we created the [LiPD Playground](https://lipd.net/playground), a web interface that allows users to easily create LiPD files. The system incorporates [PaleoRec](https://paleorec.readthedocs.io/en/latest/index.html), a [recommendation tool employing deep learning](https://www.cambridge.org/core/journals/environmental-data-science/article/paleorec-a-sequential-recommender-system-for-the-annotation-of-paleoclimate-datasets/30B71DFD01C99A3773B4CEAAB2497B2D) to assist with metadata completion during dataset annotation.
+
+### Data Compilations
+
+[LiPDverse](https://lipdverse.org) serves as a repository housing datasets formatted according to LiPD standards. The collection features datasets in the LiPD format, which are also available through a [graph interface](https://linkedearth.graphdb.mint.isi.edu). Much of the content originated from PAGES collaborations with community-vetted metadata. The platform enables straightforward querying and visualization capabilities for paleoclimate information.
 
 ### How to Contribute Data
 
-[Guidelines for contributing data to LinkedEarth]
+To contribute data to LinkedEarth, please use the [LiPD Playground](http://lipd.net/playground) to format your dataset or contact us at [linkedearth@gmail.com](mailto:linkedearth@gmail.com) for assistance.
