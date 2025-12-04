@@ -6,7 +6,7 @@ people_group: gradstudent
 email: ""
 subtitle: Graduate Student, University of Southern California
 key_areas: "Paleoclimate data assimilation, proxy system modeling"
-image: avatar.jpg
+image: tanaya.jpg
 listing:
   id: pubs
   template: ../../_ejs/publications-people.ejs
@@ -23,7 +23,7 @@ about:
   id: about
   template: trestles
   image-shape: round
-  image: avatar.jpg
+  image: tanaya.jpg
 ---
 
 <hr>
