@@ -1,12 +1,12 @@
 ---
-title: &TITLE Michael Erb
-first: Michael
-last: Erb
-people_group: researcher
+title: &TITLE Chris Hancock
+first: Chris
+last: Hancock
+people_group: pastmember
 email: ""
-subtitle: Research Scientist, Northern Arizona University
-key_areas: "Data assimilation, climate modeling, data analysis"
-website: "https://www.michaelerb.org"
+subtitle: Alumni, Northern Arizona University
+key_areas: "Paleoclimate data synthesis, data assimilation, compositeR development"
+website: "https://clhancock.shinyapps.io/Website/"
 image: avatar.jpg
 listing:
   id: pubs
@@ -28,7 +28,7 @@ about:
   links:
     - icon: globe
       text: Website
-      href: https://www.michaelerb.org
+      href: https://clhancock.shinyapps.io/Website/
 ---
 
 <hr>

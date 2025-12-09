@@ -5,7 +5,7 @@ last: Rouston
 people_group: pastmember
 email: ""
 subtitle: Alumni, Northern Arizona University
-key_areas: ""
+key_areas: "Paleoclimate data synthesis, data analysis, dendrochronology"
 website: "https://scholar.google.com/citations?user=TQAQTl0AAAAJ&hl=en"
 image: avatar.jpg
 listing:

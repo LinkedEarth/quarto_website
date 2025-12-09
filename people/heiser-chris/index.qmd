@@ -1,12 +1,12 @@
 ---
-title: &TITLE Michael Erb
-first: Michael
-last: Erb
-people_group: researcher
+title: &TITLE Chris Heiser
+first: Chris
+last: Heiser
+people_group: pastmember
 email: ""
-subtitle: Research Scientist, Northern Arizona University
-key_areas: "Data assimilation, climate modeling, data analysis"
-website: "https://www.michaelerb.org"
+subtitle: Alumni, Northern Arizona University
+key_areas: "Technical development for LiPD, LiPD playground developer"
+website: "https://www.linkedin.com/in/chrismheiser/"
 image: avatar.jpg
 listing:
   id: pubs
@@ -28,7 +28,7 @@ about:
   links:
     - icon: globe
       text: Website
-      href: https://www.michaelerb.org
+      href: https://www.linkedin.com/in/chrismheiser/
 ---
 
 <hr>

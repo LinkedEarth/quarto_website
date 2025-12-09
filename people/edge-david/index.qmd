@@ -5,7 +5,7 @@ last: Edge
 people_group: researcher
 email: ""
 subtitle: Research Scientist, Northern Arizona University
-key_areas: ""
+key_areas: "PReSto technical lead, data science, containerization and reproducibility"
 website: "https://directory.nau.edu/departments?id=10200&person=dce25&src=cefns"
 image: avatar.jpg
 listing:
