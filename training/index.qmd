@@ -12,7 +12,14 @@ We offer various training modalities, in-person/remote and synchronous/asynchron
 
 ##### PReSto - June 2026, Marina Del Rey, CA 
 
-Information coming soon.
+The [Paleoclimate Reconstruction Storehouse (PReSto)](https://paleopresto.com) project will be holding its capstone project in June 2-4 2026. The PReSto Platform does several things, including:
+
+- Providing broad access to paleoclimate reconstructions via a responsive web front end.
+- Allowing users to easily visualize, download and compare published reconstructions.
+- Enabling users to rerun, adjust input data and parameters, and customize paleoclimate reconstructions for their own purposes.
+
+This training workshop is designed to introduce users to all of three of these capabilities, with a focus on the use of PReSto’s custom reconstruction engine to modify, customize and visualize paleoclimate reconstructions. For details and registration, see [this page](https://linked.earth/presto-workshop-2026/).
+
 
 #### Past Events
 
