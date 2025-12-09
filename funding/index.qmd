@@ -54,7 +54,7 @@ PaleoCube lowers social and technical barriers in paleoclimatology by bringing s
 **Period:** 07/01/2020 -- 06/30/2026\
 [PReSto](https://paleopresto.com) provides broad access to paleoclimate reconstructions through an integrated web-based platform. The project connects a steadily growing digital collection of paleoclimate data to evolving methodologies and effectively visualizes results through a web portal. PReSto pilots on two complementary time periods: the Common Era (past 2,000 years) with monthly and annual records, and the Holocene (past ~12,000 years) at lower temporal resolution. The project includes capacity-building workshops for data stewards and early-career researchers.
 
-**Publications:** [Zhu et al. (2023)](https://doi.org/10.1038/s41597-023-02489-1), [Zhu et al. (2024)](https://gmd.copernicus.org/articles/17/3409/2024/), [Emile-Geay et al. (2025)](https://doi.org/10.1175/JCLI-D-24-0101.1)\
+**Publications:** [Manety et al (2022)](http://doi.org/10.1017/eds.2022.3), [Zhu et al. (2023)](https://doi.org/10.1038/s41597-023-02489-1), [Zhu et al. (2024)](https://gmd.copernicus.org/articles/17/3409/2024/), [Emile-Geay et al. (2025)](https://doi.org/10.1175/JCLI-D-24-0101.1)\
 **Blog Posts**: [paleoclimate ensembles](https://medium.com/cyberpaleo/harnessing-ensembles-from-paleoclimate-data-assimilation-830e844b72c9)
 
 ## Support Us
