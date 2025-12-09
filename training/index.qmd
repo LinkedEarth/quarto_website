@@ -35,7 +35,7 @@ PaleoHack is a series of online and in-person workshops designed to put tools su
 
 In addition to the workshops, we have online tutorials in the form of Jupyter Notebooks, R markdown and YouTube videos to help you get started with the LinkedEarth ecosystem.
 
-#### Computational Narrative
+#### Computational Narratives
 
 ##### Python
 
@@ -56,5 +56,5 @@ Many of our tutorials are also available on [YouTube](https://www.youtube.com/ch
 
 In addition to the tutorials above, we have other resources to help you get started with your science workflow:
 
-* The [PaleoBooks gallery](https://linked.earth/PaleoBooks/index.html) provide examples of science workflows from papers in the paleoclimate literature. 
+* The [PaleoBooks gallery](https://linked.earth/PaleoBooks/index.html) provides examples of science workflows from papers in the paleoclimate literature, as well as "how-to" guides to common tasks (e.g. regridding model output). 
 * The LeapFROGS platform with kernels in [Python](https://linked.earth/LeapFROGS/) and [R](https://linked.earth/RLeapFROGS/) provides resources to get started with scientific Python and R, timeseries analysis, concepts in Findable, Accessible, Interoperable, and Reusable (FAIR) and open science publishing, tutorials on the use of GitHub and Docker to share science artifacts, and information about software packaging. 
