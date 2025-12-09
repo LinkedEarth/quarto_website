@@ -2,72 +2,109 @@
 title: "Funding"
 ---
 
-## LinkedEarth Grants
+LinkedEarth is most grateful to the support of the US National Science Foundation (NSF), the Belmont Forum,  JP Morgan AI Research, and the Office of Naval Research. 
 
-LinkedEarth is most grateful to the support of the US National Science Foundation (NSF), the Belmont Forum,  JP Morgan AI Research, and the Office of Naval Rsearch (DEBORAH PLEASE ADD GRANT INFO FOR THE LATTER TWO)
+## Active Grants
 
-### Support Us
-
-LinkedEarth is always on the hunt for the next funding opportunities. If you think your organization could benefit from our work, please [get in touch](mailto:linkedearth@gmail.com).
-
-
-### Active Grants
-
-#### PaleoPAL: An AI Research Assistant for Paleoclimatology
-**Lead PI:** Deborah Khider
-**NSF Award:** ICER 2425885 (co-PI)
+### PaleoPAL: An AI Research Assistant for Paleoclimatology
+**Lead PI:** Deborah Khider, Julien Emile-Geay
+**NSF Award:** ICER 2425885
 **Period:** 01/01/2025 -- 12/31/2027
 
 [PaleoPAL](https://medium.com/cyberpaleo/introducing-paleopal-your-ai-partner-in-paleoclimate-research-3d8d0d79a09c) is an AI system that incorporates paleolimate knowledge into existing large language models, creating a research assistant tool to help scientists perform various tasks to analyze paleoclimate data. A key feature is that PaleoPAL will assist researchers not only with data analysis but also the interpretation of their research. Critical thinking still required. 
 
-#### FROGS: Facilitating Reproducible Open GeoScience
-**Lead PIs:** Deborah Khider, David Edge
+**Blog posts**: [Announcing PaleoPAL](https://medium.com/cyberpaleo/introducing-paleopal-your-ai-partner-in-paleoclimate-research-3d8d0d79a09c)
+
+### TUPS: Table Understanding for Paleoclimate Studies
+**Lead PIs:** Deborah Khider, Jay Pujara, Nicholas McKay
+**NSF AWARD:** OAC - 2411267/2411268
+**Period:** 09/01/2024 - 08/31/2027
+
+TUPS uses machine learning-powered table understanding to dramatically reduce the time paleoclimatologists spend searching for, wrangling, and annotating datasets before analysis. The project delivers a Python toolbox ([PyleoTUPS](https://pyleotups.readthedocs.io/en/latest/)) that enables scientists to query the NOAA Paleoclimatology and PANGAEA archives, automatically returning datasets as ready-to-use Pandas DataFrames. Beyond streamlining access to major repositories, TUPS can parse untemplated Excel and CSV files, using deep learning to intelligently extract essential metadata such as variable names, units, and geographical locations—transforming messy data into analysis-ready formats with minimal manual intervention.
+
+**Blog posts:** [Announcing TUPS](https://medium.com/cyberpaleo/announcing-tups-making-paleoclimate-data-more-accessible-through-ai-d83429b2b6b0), [PyleoTUPS](https://medium.com/cyberpaleo/pyleotups-a-python-toolbox-to-facilitate-paleoclimate-data-access-and-processing-21b98e6965ad)
+
+### FROGS: Facilitating Reproducible Open GeoScience
+**Lead PIs:** Deborah Khider, Julien Emile-Geay, Nicholas McKay
 **NSF Award:** RISE 2324732/2324733
 **Period:** 01/01/2024 -- 06/30/2026
 
-[FROGS](https://medium.com/cyberpaleo/frogs-facilitating-reproducible-and-open-geoscience-bf3f786bdff1) promotes FAIR (Findable, Accessible, Interoperable, and Reusable) research practices in the geosciences. The project delivers two main components: (1) [LeapFROGS](https://linked.earth/LeapFROGS/), an interactive online learning platform offering self-paced modules on science practice and publishing in both Python and R, and (2) synchronous hackathons and workshops to train geoscientists in incorporating reproducible workflows into their research. Results of this reproducible research are being showcased at [AGU 2025]()
+[FROGS](https://medium.com/cyberpaleo/frogs-facilitating-reproducible-and-open-geoscience-bf3f786bdff1) promotes FAIR (Findable, Accessible, Interoperable, and Reusable) research practices in the geosciences. The project delivers two main components: (1) [LeapFROGS](https://linked.earth/LeapFROGS/), an interactive online learning platform offering self-paced modules on science practice and publishing in both Python and R, and (2) synchronous hackathons and workshops to train geoscientists in incorporating reproducible workflows into their research. Results of this reproducible research are being showcased at [AGU 2025](https://agu.confex.com/agu/agu25/meetingapp.cgi/Session/270921).
 
-#### PaleoCube: Enabling Cloud-Based Paleoclimatology
+**Blog posts**: [FROGS on Medium](https://medium.com/cyberpaleo/frogs-facilitating-reproducible-and-open-geoscience-bf3f786bdff1), [LeapFROGS](https://medium.com/cyberpaleo/introducing-leapfrogs-a-platform-for-open-science-practice-and-publishing-c4c47f591ec4)
+\
+**Publications**: [Khider et al. (2025)](https://proceedings.scipy.org/articles/wcfp5784)
+
+
+### PaleoCube: Enabling Cloud-Based Paleoclimatology
 **PIs:** Deborah Khider, Julien Emile-Geay, Nicholas McKay 
 **NSF Award:** ICER 2126510
 **Period:** 09/01/2021 -- 08/31/2026\
 
 PaleoCube lowers social and technical barriers in paleoclimatology by bringing scientists to work in the Cloud. The project extends existing cyberinfrastructure (LinkedEarth, Pangeo, Jupyter) and the scientific Python ecosystem to provide free access to interactive computing at scale. Key components include: (1) a knowledge base for paleoclimate records supporting complex querying, (2) software to query and manipulate LiPD datasets, (3) software libraries for analyzing paleoclimate time series, and (4) a [gallery of exemplar notebooks and tutorials](https://linked.earth/PaleoBooks/index.html). A major achievement has been to extend NumPy and [Pandas](https://pandas.pydata.org) to accommodate non-nanosecond dtypes, thereby [opening pandas to the 4.5 billion years of Earth's history](https://quansight.com/post/pandas-and-the-geosciences-a-4-5-billion-year-story/). 
 
-**Blog Posts:**  [PaleoBooks](https://medium.com/cyberpaleo/paleobooks-science-examples-for-cyberpaleoclimatology-ce71ca29a8fc) \ 
-**Publications:** [PyLiPD](https://doi.org/10.21105/joss.08861) 
+**Blog posts**: [PaleoBooks](https://medium.com/cyberpaleo/paleobooks-science-examples-for-cyberpaleoclimatology-ce71ca29a8fc), [LinkedEarth Hub](https://medium.com/cyberpaleo/linkedearth-hub-a-jupyter-hub-for-the-paleogeoscience-community-1d1b575dd0a4)
+\
+**Publications**: [Ratnakar and Khider (2025)](https://joss.theoj.org/papers/10.21105/joss.08861)
 
-#### PReSto: A Paleoclimate Reconstruction Storehouse
+
+### PReSto: A Paleoclimate Reconstruction Storehouse
 **PIs:** Nick McKay (NAU), Julien Emile-Geay (USC), Deborah Khider (ISI)
 **NSF Award:** EAR 1948822
 **Period:** 07/01/2020 -- 06/30/2026\
 [PReSto](https://paleopresto.com) provides broad access to paleoclimate reconstructions through an integrated web-based platform. The project connects a steadily growing digital collection of paleoclimate data to evolving methodologies and effectively visualizes results through a web portal. PReSto pilots on two complementary time periods: the Common Era (past 2,000 years) with monthly and annual records, and the Holocene (past ~12,000 years) at lower temporal resolution. The project includes capacity-building workshops for data stewards and early-career researchers.
 
-**Publications:** [Zhu et al. (2023)](https://doi.org/10.1038/s41597-023-02489-1), [Zhu et al. (2024)](https://gmd.copernicus.org/articles/17/3409/2024/), [Emile-Geay et al. (2025)](https://doi.org/10.1175/JCLI-D-24-0101.1)\
+**Publications:** [Manety et al (2022)](http://doi.org/10.1017/eds.2022.3), [Zhu et al. (2023)](https://doi.org/10.1038/s41597-023-02489-1), [Zhu et al. (2024)](https://gmd.copernicus.org/articles/17/3409/2024/), [Emile-Geay et al. (2025)](https://doi.org/10.1175/JCLI-D-24-0101.1)\
 **Blog Posts**: [paleoclimate ensembles](https://medium.com/cyberpaleo/harnessing-ensembles-from-paleoclimate-data-assimilation-830e844b72c9)
 
-### Completed Grants
+## Support Us
 
-#### Collaborative Research: A Big Data Approach to Fundamental Paleoclimate Questions
+LinkedEarth is always on the hunt for the next funding opportunities. If you think your organization could benefit from our work, please [get in touch](mailto:linkedearth@gmail.com).
+
+## Completed Grants
+
+### Collaborative Research: A Big Data Approach to Fundamental Paleoclimate Questions
 **NSF Award:** AGS 2002518  \
 **PIs** Julien Emile-Geay, Deborah Khider, Jud Partin (U. Houston), C. Thackeray (UCLA) \
 **Period:** 09/01/2020  --  08/31/2025 \
 
-This grant funded 3 main activities: (1) further development of the [Pyleoclim package](https://github.com/LinkedEarth/Pyleoclim_util) (esp an extensive [documentation](https://pyleoclim-util.readthedocs.io/en/latest/) and [tutorials](https://linked.earth/PyleoTutorials/intro.html)) and outreach to the worldwide community via 3 virtual hackathons and one [in-person hackathon](https://linked.earth/paleoHackathon/);  (2) exploration of the presence of abrupt and smooth shifts in hydroclimate regimes over the past glacial cycles; (3) developement of emergent constraints on equilibrium climate sensitivity from climate reconstructions and simulations of the past millennium.  \
+This grant funded 3 main activities: (1) further development of the [Pyleoclim package](https://github.com/LinkedEarth/Pyleoclim_util) (esp an extensive [documentation](https://pyleoclim-util.readthedocs.io/en/latest/) and [tutorials](https://linked.earth/PyleoTutorials/intro.html)) and outreach to the worldwide community via 3 virtual hackathons and one [in-person hackathon](https://linked.earth/paleoHackathon/);  (2) exploration of the presence of abrupt and smooth shifts in hydroclimate regimes over the past glacial cycles; (3) developement of emergent constraints on equilibrium climate sensitivity from climate reconstructions and simulations of the past millennium.  The development of the Pyleoclim Package was also supported by a grant from JP Morgan.\
 
 **Publications:** [Khider et al. (2022)](https://doi.org/10.1029/2022PA004509), [Cropper et al, (2023)](https://doi.org/10.1029/2023GL104126), [James et al. (2024)](https://doi.org/10.1029/2023PA004700), [James et al. (2025a)](https://doi.org/10.1029/2024PA004974), [James et al. (2025b)](https://doi.org/10.1029/2024PA005098)
 
-#### Belmont Forum Collaborative Research: Abrupt Change in Climate and Ecosystems: Where are the Tipping Points?
+### Towards Reflection Competencies for AI Scientists: Developing a Conceptual Framework and Open Research Platform.
+**Office of Naval Research**
+**PIs:** Yolanda Gil
+**Period**: 06/01/2021 - 05/31/2023
+
+As scientific questions become more complex, the capabilities of scientists to do research will need to be augmented with AI systems. This project will develop an open architecture for cognitive AI scientists that can formulate scientific questions, devise strategies to answer them, and place new findings in the context of the original question. A core aspects of this research is capturing scientific knowledge to reason about open questions, construct plausible hypotheses, formulate appropriate methods to test them, and interpret the results obtained. 
+
+### Automating Machine Learning for Time Series Analysis.
+**JP Morgan Award** 
+**PIs:** Yolanda Gil, Deborah Khider
+**Period:** 03/01/2019 - 01/31/2022
+
+The goal of this project was to automate time series analysis. This would enable non-experts to analyze time series data with high-quality, proven methods, and would also allow efficient analysis of the vasts amount of timeseries data available. 
+
+**Publications:** [Khider et al. 2020](https://kdd-milets.github.io/milets2020/papers/MiLeTS2020_paper_15.pdf)
+
+
+### Belmont Forum Collaborative Research: Abrupt Change in Climate and Ecosystems: Where are the Tipping Points?
 **Award:** Belmont Forum via NSF, ICER 1929554
 **Period:** 07/01/2019 -- 06/30/2022\
 NICK PLEASE WRITE and refer to actR
 
-#### Collaborative Research: LinkedEarth: Crowdsourcing Data Curation & Standards Development in Paleoclimatology
+### Collaborative Research: LinkedEarth: Crowdsourcing Data Curation & Standards Development in Paleoclimatology
 **NSF Award:** ICER 1541029 
 **PIs:** Julien Emile-Geay, Yolanda Gil, Nick McKay
 **Period:** 09/01/2015 -- 08/31/2019\
 
-#### Collaborative Research: GeoChronR - open-source tools for the analysis, visualization and integration of time-uncertain geoscientific data
+Our namesake grant, which kickstarted collaboration within the core team, back when Deborah was a postdoc. LinkedEarth aimed to leverage semantic web technologies to crowdsource the curation of paleoclimate datasets and compilations. The project led to the developement of the LinkedEarth wiki (now defunct) and the [PaCTS reporting standard](https://doi.org/10.1029/2019PA003632), obtained through extensive community consultation, particularly through a meeting at the World Data Service for Paleoclimatology in Boulder, CO in 2016. 
+
+**Publications:** [Gil et al, (2017)](https://doi.org/10.1007/978-3-319-68204-4_24), [Khider et al (2019)](https://doi.org/10.1029/2019PA003632)
+**Products:** [LinkedEarth Ontology](https://linked.earth/ontology/)
+
+### Collaborative Research: GeoChronR - open-source tools for the analysis, visualization and integration of time-uncertain geoscientific data
 **NSF Award:** EAR 1347213
 **PIs:** Nick McKay, Julien Emile-Geay
 **Period:** 07/01/2014 -- 06/30/2018\

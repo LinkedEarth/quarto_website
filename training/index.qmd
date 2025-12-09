@@ -4,16 +4,64 @@ title: "Training"
 
 ## Training & Education
 
-[Add information about training resources, workshops, and educational materials]
+We offer various training modalities, in-person/remote and synchronous/asynchronous.
 
 ### Workshops
 
-[Information about upcoming and past workshops]
+#### Upcoming opportunities
+
+##### PReSto - June 2026, Marina Del Rey, CA 
+
+The [Paleoclimate Reconstruction Storehouse (PReSto)](https://paleopresto.com) project will be holding its capstone project in June 2-4 2026. The PReSto Platform does several things, including:
+
+- Providing broad access to paleoclimate reconstructions via a responsive web front end.
+- Allowing users to easily visualize, download and compare published reconstructions.
+- Enabling users to rerun, adjust input data and parameters, and customize paleoclimate reconstructions for their own purposes.
+
+This training workshop is designed to introduce users to all of three of these capabilities, with a focus on the use of PReSto’s custom reconstruction engine to modify, customize and visualize paleoclimate reconstructions. For details and registration, see [this page](https://linked.earth/presto-workshop-2026/).
+
+
+#### Past Events
+
+##### FROGS
+
+![Participants in the PyRATES Workshop, Marina Del Rey, June 2024](../images/PyRATES.png)
+
+The Facilitating Reproducible and Open GeoScience ([FROGS](https://linked.earth/FROGS/)) project is a National Science Foundation-supported LinkedEarth initiative that trains geoscientists to adopt reproducible and open science practices through comprehensive workshop programs. Recognizing that sharing research data, software, and workflows is fundamental to building a Findable, Accessible, Interoperable, and Reusable (FAIR) open science ecosystem, FROGS has delivered training events that combine synchronous hackathons with weeks of practical exercises, allowing participants at various career stages to integrate publishing principles directly into their research workflows. Throughout these follow-up periods, office hours provide personalized support as researchers apply new skills to their own projects, ensuring lasting impact beyond the initial workshop. To support both workshop participants and the broader geoscience community, FROGS developed LeapFROGS, a free interactive platform with curated lecture materials and self-graded exercises in [Python](http://linked.earth/LeapFROGS/) and [R](http://linked.earth/RLeapFROGS/) that enables self-paced learning on science practice and publishing. Learn more about our workshop outcomes [here](https://linkedearth.github.io/FROGS/pastworkshops), and explore [all FROGS products](https://linkedearth.github.io/FROGS/resources), including learning materials and YouTube tutorials.
+
+**Publications**: [Khider et al. (2025)](https://proceedings.scipy.org/articles/wcfp5784); **Blog posts**: [FROGS on Medium](https://medium.com/cyberpaleo/frogs-facilitating-reproducible-and-open-geoscience-bf3f786bdff1), [LeapFROGS](https://medium.com/cyberpaleo/introducing-leapfrogs-a-platform-for-open-science-practice-and-publishing-c4c47f591ec4)
+
+##### PaleoHack
+
+![Participants in the GeoChronR Workshop, Flagstaff, August 2017](../images/GeoChronR.JPG)
+
+
+PaleoHack is a series of online and in-person workshops designed to put tools such as [Pyleoclim](https://pyleoclim-util.readthedocs.io/en/latest/), [GeoChronR](https://nickmckay.org/GeoChronR/), and the [Python](https://pylipd.readthedocs.io/en/latest/) and [R](http://nickmckay.org/lipdR/) tools to read, manipulate, and write LiPD files in the hands of the community. Over the past decade, the hackathons have taken multiple modalities including in-person and online workshops, specialized sessions for target groups working on paleoclimate compilations or specific scientific workflows, and department-focused sessions. If you are interested in organizing a session for your group or your department, [contact us](mailto:linkedearth@gmail.com).
 
 ### Tutorials
 
-[Links to tutorials and learning materials]
+In addition to the workshops, we have online tutorials in the form of Jupyter Notebooks, R markdown and YouTube videos to help you get started with the LinkedEarth ecosystem.
+
+#### Computational Narratives
+
+##### Python
+
+* The [Pyleolim tutorials](https://linked.earth/PyleoTutorials/intro.html) are presented in an executable Jupyter Book that walks you through the fundamentals of data loading in Pyleoclim, data visualization, and timeseries analysis including analyses in the frequency domain (spectral, wavelet), principle commponent analysis, measure of analysis. 
+* The [PyLiPD tutorials](https://linked.earth/pylipdTutorials/intro.html) walk through examples on loading, manipulating, querying, editing, and creating files in the LiPD format. 
+* The [PyleoTUPS tutorials](https://linked.earth/pyleotupsTutorials/intro.html) provide examples about querying and loading data from the NOAA Paleoclimatology data center. 
+
+##### R 
+
+* The [GeoChronR](https://nickmckay.org/GeoChronR/articles/Introduction.html) vignettes provide examples on working with the software package. 
+* The [Time-uncertain data analysis in R](https://linked.earth/time-uncertain-data-analysis-in-R/) book describes the theory and practice of time-uncertain data analysis in R, largely relying on the geoChronR package.
+
+#### Video tutorials
+
+Many of our tutorials are also available on [YouTube](https://www.youtube.com/channel/UCo7yzNTM__4g5H-xyWV5KbA).
 
 ### Resources
 
-[Additional educational resources]
+In addition to the tutorials above, we have other resources to help you get started with your science workflow:
+
+* The [PaleoBooks gallery](https://linked.earth/PaleoBooks/index.html) provides examples of science workflows from papers in the paleoclimate literature, as well as "how-to" guides to common tasks (e.g. regridding model output). 
+* The LeapFROGS platform with kernels in [Python](https://linked.earth/LeapFROGS/) and [R](https://linked.earth/RLeapFROGS/) provides resources to get started with scientific Python and R, timeseries analysis, concepts in Findable, Accessible, Interoperable, and Reusable (FAIR) and open science publishing, tutorials on the use of GitHub and Docker to share science artifacts, and information about software packaging. 
