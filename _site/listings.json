@@ -41,6 +41,8 @@
       "/people/ratnakar-varun/index.html",
       "/people/garijo-daniel/index.html",
       "/people/gil-yolanda/index.html",
+      "/people/hancock-chris/index.html",
+      "/people/heiser-chris/index.html",
       "/people/james-alexander/index.html",
       "/people/rouston-cody/index.html",
       "/people/zhu-feng/index.html"
@@ -68,6 +70,8 @@
       "/people/niati-maryam/index.html",
       "/people/garijo-daniel/index.html",
       "/people/gil-yolanda/index.html",
+      "/people/hancock-chris/index.html",
+      "/people/heiser-chris/index.html",
       "/people/james-alexander/index.html",
       "/people/rouston-cody/index.html",
       "/people/zhu-feng/index.html"
@@ -91,6 +95,14 @@
   },
   {
     "listing": "/people/gondhalekar-tanaya/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/heiser-chris/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/hancock-chris/index.html",
     "items": []
   }
 ]
