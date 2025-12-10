@@ -52,8 +52,10 @@ In addition to the workshops, we have online tutorials in the form of Jupyter No
 
 ##### R 
 
-* The [GeoChronR](https://nickmckay.org/GeoChronR/articles/Introduction.html) vignettes provide examples on working with the software package. 
+* The [geoChronR](https://nickmckay.org/GeoChronR/articles/Introduction.html) vignettes provide examples on working with the software package. 
 * The [Time-uncertain data analysis in R](https://linked.earth/time-uncertain-data-analysis-in-R/) book describes the theory and practice of time-uncertain data analysis in R, largely relying on the geoChronR package.
+* The [actR](https://linked.earth/actR/) package has instructions and vignettes for working with this package. 
+* The [compositeR](https://nickmckay.org/compositeR/) package, which is still in development and is rough around the edges, also has a few examples for its use.
 
 #### Video tutorials
 
