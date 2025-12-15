@@ -23,7 +23,7 @@ LinkedEarth is a community-driven initiative dedicated to advancing paleoclimate
 ### Synopsis
 
 
-{{< video https://www.youtube.com/watch?v=vXJ7wdCzVgI title="LinkedEarth, 5min version" width="740" start="30" aspect-ratio="16x9" >}}
+{{< video https://www.youtube.com/watch?v=vXJ7wdCzVgI title="LinkedEarth, 5min version" width="740" start="0" aspect-ratio="16x9" >}}
 
 
 ### Offerings
