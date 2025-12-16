@@ -16,15 +16,19 @@
     "items": []
   },
   {
-    "listing": "/people/gil-yolanda/index.html",
+    "listing": "/people/heiser-chris/index.html",
     "items": []
   },
   {
-    "listing": "/people/erb-michael/index.html",
+    "listing": "/people/gondhalekar-tanaya/index.html",
     "items": []
   },
   {
-    "listing": "/people/edge-david/index.html",
+    "listing": "/people/garijo-daniel/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/emile-geay-julien/index.html",
     "items": []
   },
   {
@@ -49,11 +53,19 @@
     ]
   },
   {
-    "listing": "/people/emile-geay-julien/index.html",
+    "listing": "/people/edge-david/index.html",
     "items": []
   },
   {
-    "listing": "/people/garijo-daniel/index.html",
+    "listing": "/people/erb-michael/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/gil-yolanda/index.html",
+    "items": []
+  },
+  {
+    "listing": "/people/hancock-chris/index.html",
     "items": []
   },
   {
@@ -91,18 +103,6 @@
   },
   {
     "listing": "/people/zhu-feng/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/gondhalekar-tanaya/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/heiser-chris/index.html",
-    "items": []
-  },
-  {
-    "listing": "/people/hancock-chris/index.html",
     "items": []
   }
 ]
