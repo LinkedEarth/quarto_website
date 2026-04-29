@@ -4,7 +4,7 @@ first: Alexander
 last: James
 people_group: pastmember
 email: ""
-subtitle: Alumni, University of Southern California
+subtitle: Alumnus, University of Southern California
 key_areas: "Paleoclimatology, Nonlinear timeseries analysis, Pyleoclim & Ammonyte development"
 website: "https://www.deepbluegeophysics.com/about"
 image: avatar.jpg

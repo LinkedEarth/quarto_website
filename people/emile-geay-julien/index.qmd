@@ -6,7 +6,7 @@ people_group: coreteam
 email: "julieneg@usc.edu"
 subtitle: Department of Earth Sciences, University of Southern California
 key_areas: "Climate dynamics, data analysis, open science"
-website: "https://dornsife.usc.edu/profile/julien-emile-geay/"
+website: "https://commonclimate.github.io"
 image: julien.jpg
 listing:
   id: pubs
@@ -31,7 +31,7 @@ about:
       href: mailto:julieneg@usc.edu
     - icon: globe
       text: Website
-      href: https://dornsife.usc.edu/profile/julien-emile-geay/
+      href: https://commonclimate.github.io
 ---
 
 <hr>

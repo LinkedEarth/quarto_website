@@ -4,7 +4,7 @@ first: Chris
 last: Heiser
 people_group: pastmember
 email: ""
-subtitle: Alumni, Northern Arizona University
+subtitle: Alumnus, Northern Arizona University
 key_areas: "Technical development for LiPD, LiPD playground developer"
 website: "https://www.linkedin.com/in/chrismheiser/"
 image: avatar.jpg

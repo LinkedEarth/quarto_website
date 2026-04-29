@@ -4,7 +4,7 @@ first: Chris
 last: Hancock
 people_group: pastmember
 email: ""
-subtitle: Alumni, Northern Arizona University
+subtitle: Alumnus, Northern Arizona University
 key_areas: "Paleoclimate data synthesis, data assimilation, compositeR development"
 website: "https://clhancock.shinyapps.io/Website/"
 image: avatar.jpg
