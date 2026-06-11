@@ -40,14 +40,14 @@ LinkedEarth is a community-driven initiative dedicated to advancing paleoclimate
 ### Connect
 
 <div style="font-size: 1.5em; margin: 20px 0;">
-  <a href="https://github.com/LinkedEarth" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;" title="GitHub"><i class="bi bi-github"></i></a>
-  <a href="https://twitter.com/Linked_Earth" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;" title="Twitter"><i class="bi bi-twitter"></i></a>
-  <a href="https://bsky.app/profile/linkedearth.bsky.social" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;" title="Bluesky"><i class="bi bi-bluesky"></i></a>
-  <a href="https://medium.com/cyberpaleo" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;" title="Medium"><i class="bi bi-medium"></i></a>
-  <a href="https://discourse.linked.earth/" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;" title="Discourse"><i class="bi bi-chat-left-text"></i></a>
-  <a href="mailto:linkedearth@gmail.com?subject=Request%20to%20Join%20LinkedEarth%20Community%20Slack%20Workspace&body=Hi%2C%0A%0AI%20would%20like%20to%20join%20the%20LinkedEarth%20Community%20Slack%20workspace.%0A%0AName%3A%20%0AInstitution%3A%20%0AResearch%20interests%3A%20%0A%0AThank%20you!" style="margin-right: 15px;" title="Slack - Request Access"><i class="bi bi-slack"></i></a>
-  <a href="mailto:linkedearth@gmail.com" style="margin-right: 15px;" title="Email"><i class="bi bi-envelope"></i></a>
-  <a href="https://docs.google.com/document/d/1WxfYztmehBRCjMRWA8VMrWxe_4by2XPa3W3vCeF7CSo/edit?usp=sharing" target="_blank" rel="noopener noreferrer" title="Google Drive"><i class="bi bi-google"></i></a>
+  <a href="https://github.com/LinkedEarth" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+  <a href="https://twitter.com/Linked_Earth" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;" aria-label="Twitter"><i class="bi bi-twitter" aria-hidden="true"></i></a>
+  <a href="https://bsky.app/profile/linkedearth.bsky.social" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;" aria-label="Bluesky"><i class="bi bi-bluesky" aria-hidden="true"></i></a>
+  <a href="https://medium.com/cyberpaleo" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;" aria-label="Medium"><i class="bi bi-medium" aria-hidden="true"></i></a>
+  <a href="https://discourse.linked.earth/" target="_blank" rel="noopener noreferrer" style="margin-right: 15px;" aria-label="Discourse forum"><i class="bi bi-chat-left-text" aria-hidden="true"></i></a>
+  <a href="mailto:linkedearth@gmail.com?subject=Request%20to%20Join%20LinkedEarth%20Community%20Slack%20Workspace&body=Hi%2C%0A%0AI%20would%20like%20to%20join%20the%20LinkedEarth%20Community%20Slack%20workspace.%0A%0AName%3A%20%0AInstitution%3A%20%0AResearch%20interests%3A%20%0A%0AThank%20you!" style="margin-right: 15px;" aria-label="Slack - Request Access"><i class="bi bi-slack" aria-hidden="true"></i></a>
+  <a href="mailto:linkedearth@gmail.com" style="margin-right: 15px;" aria-label="Email"><i class="bi bi-envelope" aria-hidden="true"></i></a>
+  <a href="https://docs.google.com/document/d/1WxfYztmehBRCjMRWA8VMrWxe_4by2XPa3W3vCeF7CSo/edit?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Google Drive"><i class="bi bi-google" aria-hidden="true"></i></a>
 </div>
 
 

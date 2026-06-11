@@ -5,6 +5,8 @@ $primary: #4A7BA7; // Steel blue from LinkedEarth logo
 $secondary: #6B9BC3; // Lighter blue
 $accent: #2E5F7F; // Darker blue
 $background: #f8f9fa; // Light gray background
+$link-color: #2E5F7F; // Passes WCAG AA (6.27:1 on white)
+$link-hover-color: #1d3d52;
 
 // Fonts
 
@@ -247,14 +249,14 @@ div.gradient-text {
   max-width: 80%;
   margin-top: 10px;
   margin-bottom: 12px;
-  color: #4A7BA7;
+  color: #2E5F7F;
   font-size: 20px;
   line-height: 1.2;
   font-weight: 700 !important;
 }
 
 .listing-box-title a {
-  color: #4A7BA7 !important;
+  color: #2E5F7F !important;
   font-weight: 700 !important;
   text-decoration: none;
 }
@@ -275,7 +277,7 @@ div.quarto-post h3.listing-title a,
 .quarto-listing .listing-item h3,
 .quarto-listing h3.listing-title {
   font-weight: 700 !important;
-  color: #4A7BA7 !important;
+  color: #2E5F7F !important;
 }
 
 /* Ensure all links in listing titles are bold */
@@ -287,7 +289,7 @@ div.quarto-post h3.listing-title a,
 h3.listing-title a,
 .listing-name a {
   font-weight: 700 !important;
-  color: #4A7BA7 !important;
+  color: #2E5F7F !important;
   text-decoration: none;
 }
 
