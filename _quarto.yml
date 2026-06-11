@@ -16,12 +16,9 @@ website:
   search: true
   page-footer:
     background: "#f8f9fa"
-    center: © 2025 LinkedEarth &middot; Made with
+    center: © 2026 LinkedEarth &middot; Made with
       [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=65px}](https://quarto.org/)
-    right:
-      - icon: github
-        href: https://github.com/LinkedEarth/quarto_website
-        aria-label: "LinkedEarth on GitHub"
+    right: '<a class="nav-link" href="https://github.com/LinkedEarth/quarto_website" aria-label="GitHub repository for the LinkedEarth website"><i class="bi bi-github" aria-hidden="true"></i></a>'
 
   navbar:
     search: true
