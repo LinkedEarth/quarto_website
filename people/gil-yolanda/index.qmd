@@ -38,8 +38,6 @@ about:
 
 :::{#about}
 
-## Education
-{{< meta education >}}
 
 <br>
 

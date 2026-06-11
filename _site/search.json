@@ -4,14 +4,14 @@
     "href": "training/index.html",
     "title": "Training",
     "section": "",
-    "text": "We offer various training modalities, in-person/remote and synchronous/asynchronous.\n\n\n\n\n\n\nThe Paleoclimate Reconstruction Storehouse (PReSto) project will be holding its capstone project in June 2-4 2026. The PReSto Platform does several things, including:\n\nProviding broad access to paleoclimate reconstructions via a responsive web front end.\nAllowing users to easily visualize, download and compare published reconstructions.\nEnabling users to rerun, adjust input data and parameters, and customize paleoclimate reconstructions for their own purposes.\n\nThis training workshop is designed to introduce users to all of three of these capabilities, with a focus on the use of PReSto’s custom reconstruction engine to modify, customize and visualize paleoclimate reconstructions. For details and registration, see this page.\n\n\n\n\n\n\n\n\n\nParticipants in the PyRATES Workshop, Marina Del Rey, June 2024\n\n\nThe Facilitating Reproducible and Open GeoScience (FROGS) project is a National Science Foundation-supported LinkedEarth initiative that trains geoscientists to adopt reproducible and open science practices through comprehensive workshop programs. Recognizing that sharing research data, software, and workflows is fundamental to building a Findable, Accessible, Interoperable, and Reusable (FAIR) open science ecosystem, FROGS has delivered training events that combine synchronous hackathons with weeks of practical exercises, allowing participants at various career stages to integrate publishing principles directly into their research workflows. Throughout these follow-up periods, office hours provide personalized support as researchers apply new skills to their own projects, ensuring lasting impact beyond the initial workshop. To support both workshop participants and the broader geoscience community, FROGS developed LeapFROGS, a free interactive platform with curated lecture materials and self-graded exercises in Python and R that enables self-paced learning on science practice and publishing. Learn more about our workshop outcomes here, and explore all FROGS products, including learning materials and YouTube tutorials.\nPublications: Khider et al. (2025); Blog posts: FROGS on Medium, LeapFROGS\n\n\n\n\n\n\nParticipants in the GeoChronR Workshop, Flagstaff, August 2017\n\n\nPaleoHack is a series of online and in-person workshops designed to put tools such as Pyleoclim, GeoChronR, and the Python and R tools to read, manipulate, and write LiPD files in the hands of the community. Over the past decade, the hackathons have taken multiple modalities including in-person and online workshops, specialized sessions for target groups working on paleoclimate compilations or specific scientific workflows, and department-focused sessions. If you are interested in organizing a session for your group or your department, contact us.\n\n\n\n\n\nIn addition to the workshops, we have online tutorials in the form of Jupyter Notebooks, R markdown and YouTube videos to help you get started with the LinkedEarth ecosystem.\n\n\n\n\n\nThe Pyleolim tutorials are presented in an executable Jupyter Book that walks you through the fundamentals of data loading in Pyleoclim, data visualization, and timeseries analysis including analyses in the frequency domain (spectral, wavelet), principle commponent analysis, measure of analysis.\nThe PyLiPD tutorials walk through examples on loading, manipulating, querying, editing, and creating files in the LiPD format.\nThe PyleoTUPS tutorials provide examples about querying and loading data from the NOAA Paleoclimatology data center.\n\n\n\n\n\nThe GeoChronR vignettes provide examples on working with the software package.\nThe Time-uncertain data analysis in R book describes the theory and practice of time-uncertain data analysis in R, largely relying on the geoChronR package.\n\n\n\n\n\nMany of our tutorials are also available on YouTube.\n\n\n\n\nIn addition to the tutorials above, we have other resources to help you get started with your science workflow:\n\nThe PaleoBooks gallery provides examples of science workflows from papers in the paleoclimate literature, as well as “how-to” guides to common tasks (e.g. regridding model output).\nThe LeapFROGS platform with kernels in Python and R provides resources to get started with scientific Python and R, timeseries analysis, concepts in Findable, Accessible, Interoperable, and Reusable (FAIR) and open science publishing, tutorials on the use of GitHub and Docker to share science artifacts, and information about software packaging."
+    "text": "We offer various training modalities, in-person/remote and synchronous/asynchronous.\n\n\n\n\n\n\nThe Paleoclimate Reconstruction Storehouse (PReSto) project will be holding its capstone project in June 2-4 2026. The PReSto Platform does several things, including:\n\nProviding broad access to paleoclimate reconstructions via a responsive web front end.\nAllowing users to easily visualize, download and compare published reconstructions.\nEnabling users to rerun, adjust input data and parameters, and customize paleoclimate reconstructions for their own purposes.\n\nThis training workshop is designed to introduce users to all of three of these capabilities, with a focus on the use of PReSto’s custom reconstruction engine to modify, customize and visualize paleoclimate reconstructions. For details and registration, see this page.\n\n\n\n\n\n\n\n\n\nParticipants in the PyRATES Workshop, Marina Del Rey, June 2024\n\n\nThe Facilitating Reproducible and Open GeoScience (FROGS) project is a National Science Foundation-supported LinkedEarth initiative that trains geoscientists to adopt reproducible and open science practices through comprehensive workshop programs. Recognizing that sharing research data, software, and workflows is fundamental to building a Findable, Accessible, Interoperable, and Reusable (FAIR) open science ecosystem, FROGS has delivered training events that combine synchronous hackathons with weeks of practical exercises, allowing participants at various career stages to integrate publishing principles directly into their research workflows. Throughout these follow-up periods, office hours provide personalized support as researchers apply new skills to their own projects, ensuring lasting impact beyond the initial workshop. To support both workshop participants and the broader geoscience community, FROGS developed LeapFROGS, a free interactive platform with curated lecture materials and self-graded exercises in Python and R that enables self-paced learning on science practice and publishing. Learn more about our workshop outcomes here, and explore all FROGS products, including learning materials and YouTube tutorials.\nPublications: Khider et al. (2025); Blog posts: FROGS on Medium, LeapFROGS\n\n\n\n\n\n\nParticipants in the GeoChronR Workshop, Flagstaff, August 2017\n\n\nPaleoHack is a series of online and in-person workshops designed to put tools such as Pyleoclim, GeoChronR, and the Python and R tools to read, manipulate, and write LiPD files in the hands of the community. Over the past decade, the hackathons have taken multiple modalities including in-person and online workshops, specialized sessions for target groups working on paleoclimate compilations or specific scientific workflows, and department-focused sessions. If you are interested in organizing a session for your group or your department, contact us.\n\n\n\n\n\nIn addition to the workshops, we have online tutorials in the form of Jupyter Notebooks, R markdown and YouTube videos to help you get started with the LinkedEarth ecosystem.\n\n\n\n\n\nThe Pyleolim tutorials are presented in an executable Jupyter Book that walks you through the fundamentals of data loading in Pyleoclim, data visualization, and timeseries analysis including analyses in the frequency domain (spectral, wavelet), principle commponent analysis, measure of analysis.\nThe PyLiPD tutorials walk through examples on loading, manipulating, querying, editing, and creating files in the LiPD format.\nThe PyleoTUPS tutorials provide examples about querying and loading data from the NOAA Paleoclimatology data center.\n\n\n\n\n\nThe geoChronR vignettes provide examples on working with the software package.\nThe Time-uncertain data analysis in R book describes the theory and practice of time-uncertain data analysis in R, largely relying on the geoChronR package.\nThe actR package has instructions and vignettes for working with this package.\nThe compositeR package, which is still in development and is rough around the edges, also has a few examples for its use.\n\n\n\n\n\nMany of our tutorials are also available on YouTube.\n\n\n\n\nIn addition to the tutorials above, we have other resources to help you get started with your science workflow:\n\nThe PaleoBooks gallery provides examples of science workflows from papers in the paleoclimate literature, as well as “how-to” guides to common tasks (e.g. regridding model output).\nThe LeapFROGS platform with kernels in Python and R provides resources to get started with scientific Python and R, timeseries analysis, concepts in Findable, Accessible, Interoperable, and Reusable (FAIR) and open science publishing, tutorials on the use of GitHub and Docker to share science artifacts, and information about software packaging."
   },
   {
     "objectID": "training/index.html#training-education",
     "href": "training/index.html#training-education",
     "title": "Training",
     "section": "",
-    "text": "We offer various training modalities, in-person/remote and synchronous/asynchronous.\n\n\n\n\n\n\nThe Paleoclimate Reconstruction Storehouse (PReSto) project will be holding its capstone project in June 2-4 2026. The PReSto Platform does several things, including:\n\nProviding broad access to paleoclimate reconstructions via a responsive web front end.\nAllowing users to easily visualize, download and compare published reconstructions.\nEnabling users to rerun, adjust input data and parameters, and customize paleoclimate reconstructions for their own purposes.\n\nThis training workshop is designed to introduce users to all of three of these capabilities, with a focus on the use of PReSto’s custom reconstruction engine to modify, customize and visualize paleoclimate reconstructions. For details and registration, see this page.\n\n\n\n\n\n\n\n\n\nParticipants in the PyRATES Workshop, Marina Del Rey, June 2024\n\n\nThe Facilitating Reproducible and Open GeoScience (FROGS) project is a National Science Foundation-supported LinkedEarth initiative that trains geoscientists to adopt reproducible and open science practices through comprehensive workshop programs. Recognizing that sharing research data, software, and workflows is fundamental to building a Findable, Accessible, Interoperable, and Reusable (FAIR) open science ecosystem, FROGS has delivered training events that combine synchronous hackathons with weeks of practical exercises, allowing participants at various career stages to integrate publishing principles directly into their research workflows. Throughout these follow-up periods, office hours provide personalized support as researchers apply new skills to their own projects, ensuring lasting impact beyond the initial workshop. To support both workshop participants and the broader geoscience community, FROGS developed LeapFROGS, a free interactive platform with curated lecture materials and self-graded exercises in Python and R that enables self-paced learning on science practice and publishing. Learn more about our workshop outcomes here, and explore all FROGS products, including learning materials and YouTube tutorials.\nPublications: Khider et al. (2025); Blog posts: FROGS on Medium, LeapFROGS\n\n\n\n\n\n\nParticipants in the GeoChronR Workshop, Flagstaff, August 2017\n\n\nPaleoHack is a series of online and in-person workshops designed to put tools such as Pyleoclim, GeoChronR, and the Python and R tools to read, manipulate, and write LiPD files in the hands of the community. Over the past decade, the hackathons have taken multiple modalities including in-person and online workshops, specialized sessions for target groups working on paleoclimate compilations or specific scientific workflows, and department-focused sessions. If you are interested in organizing a session for your group or your department, contact us.\n\n\n\n\n\nIn addition to the workshops, we have online tutorials in the form of Jupyter Notebooks, R markdown and YouTube videos to help you get started with the LinkedEarth ecosystem.\n\n\n\n\n\nThe Pyleolim tutorials are presented in an executable Jupyter Book that walks you through the fundamentals of data loading in Pyleoclim, data visualization, and timeseries analysis including analyses in the frequency domain (spectral, wavelet), principle commponent analysis, measure of analysis.\nThe PyLiPD tutorials walk through examples on loading, manipulating, querying, editing, and creating files in the LiPD format.\nThe PyleoTUPS tutorials provide examples about querying and loading data from the NOAA Paleoclimatology data center.\n\n\n\n\n\nThe GeoChronR vignettes provide examples on working with the software package.\nThe Time-uncertain data analysis in R book describes the theory and practice of time-uncertain data analysis in R, largely relying on the geoChronR package.\n\n\n\n\n\nMany of our tutorials are also available on YouTube.\n\n\n\n\nIn addition to the tutorials above, we have other resources to help you get started with your science workflow:\n\nThe PaleoBooks gallery provides examples of science workflows from papers in the paleoclimate literature, as well as “how-to” guides to common tasks (e.g. regridding model output).\nThe LeapFROGS platform with kernels in Python and R provides resources to get started with scientific Python and R, timeseries analysis, concepts in Findable, Accessible, Interoperable, and Reusable (FAIR) and open science publishing, tutorials on the use of GitHub and Docker to share science artifacts, and information about software packaging."
+    "text": "We offer various training modalities, in-person/remote and synchronous/asynchronous.\n\n\n\n\n\n\nThe Paleoclimate Reconstruction Storehouse (PReSto) project will be holding its capstone project in June 2-4 2026. The PReSto Platform does several things, including:\n\nProviding broad access to paleoclimate reconstructions via a responsive web front end.\nAllowing users to easily visualize, download and compare published reconstructions.\nEnabling users to rerun, adjust input data and parameters, and customize paleoclimate reconstructions for their own purposes.\n\nThis training workshop is designed to introduce users to all of three of these capabilities, with a focus on the use of PReSto’s custom reconstruction engine to modify, customize and visualize paleoclimate reconstructions. For details and registration, see this page.\n\n\n\n\n\n\n\n\n\nParticipants in the PyRATES Workshop, Marina Del Rey, June 2024\n\n\nThe Facilitating Reproducible and Open GeoScience (FROGS) project is a National Science Foundation-supported LinkedEarth initiative that trains geoscientists to adopt reproducible and open science practices through comprehensive workshop programs. Recognizing that sharing research data, software, and workflows is fundamental to building a Findable, Accessible, Interoperable, and Reusable (FAIR) open science ecosystem, FROGS has delivered training events that combine synchronous hackathons with weeks of practical exercises, allowing participants at various career stages to integrate publishing principles directly into their research workflows. Throughout these follow-up periods, office hours provide personalized support as researchers apply new skills to their own projects, ensuring lasting impact beyond the initial workshop. To support both workshop participants and the broader geoscience community, FROGS developed LeapFROGS, a free interactive platform with curated lecture materials and self-graded exercises in Python and R that enables self-paced learning on science practice and publishing. Learn more about our workshop outcomes here, and explore all FROGS products, including learning materials and YouTube tutorials.\nPublications: Khider et al. (2025); Blog posts: FROGS on Medium, LeapFROGS\n\n\n\n\n\n\nParticipants in the GeoChronR Workshop, Flagstaff, August 2017\n\n\nPaleoHack is a series of online and in-person workshops designed to put tools such as Pyleoclim, GeoChronR, and the Python and R tools to read, manipulate, and write LiPD files in the hands of the community. Over the past decade, the hackathons have taken multiple modalities including in-person and online workshops, specialized sessions for target groups working on paleoclimate compilations or specific scientific workflows, and department-focused sessions. If you are interested in organizing a session for your group or your department, contact us.\n\n\n\n\n\nIn addition to the workshops, we have online tutorials in the form of Jupyter Notebooks, R markdown and YouTube videos to help you get started with the LinkedEarth ecosystem.\n\n\n\n\n\nThe Pyleolim tutorials are presented in an executable Jupyter Book that walks you through the fundamentals of data loading in Pyleoclim, data visualization, and timeseries analysis including analyses in the frequency domain (spectral, wavelet), principle commponent analysis, measure of analysis.\nThe PyLiPD tutorials walk through examples on loading, manipulating, querying, editing, and creating files in the LiPD format.\nThe PyleoTUPS tutorials provide examples about querying and loading data from the NOAA Paleoclimatology data center.\n\n\n\n\n\nThe geoChronR vignettes provide examples on working with the software package.\nThe Time-uncertain data analysis in R book describes the theory and practice of time-uncertain data analysis in R, largely relying on the geoChronR package.\nThe actR package has instructions and vignettes for working with this package.\nThe compositeR package, which is still in development and is rough around the edges, also has a few examples for its use.\n\n\n\n\n\nMany of our tutorials are also available on YouTube.\n\n\n\n\nIn addition to the tutorials above, we have other resources to help you get started with your science workflow:\n\nThe PaleoBooks gallery provides examples of science workflows from papers in the paleoclimate literature, as well as “how-to” guides to common tasks (e.g. regridding model output).\nThe LeapFROGS platform with kernels in Python and R provides resources to get started with scientific Python and R, timeseries analysis, concepts in Findable, Accessible, Interoperable, and Reusable (FAIR) and open science publishing, tutorials on the use of GitHub and Docker to share science artifacts, and information about software packaging."
   },
   {
     "objectID": "publications/index.html",
@@ -35,25 +35,11 @@
     "text": "Presentations\nThe following slide decks give overviews of LinkedEarth activities and demonstrations.\n\nAGU Townhall Fall 2021\nPaleoCube overview"
   },
   {
-    "objectID": "people/rouston-cody/index.html#education",
-    "href": "people/rouston-cody/index.html#education",
-    "title": "Cody Rouston",
-    "section": "Education",
-    "text": "Education\n?meta:education"
-  },
-  {
     "objectID": "people/rouston-cody/index.html#s-group-publications",
     "href": "people/rouston-cody/index.html#s-group-publications",
     "title": "Cody Rouston",
     "section": "Cody’s Group Publications",
     "text": "Cody’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "people/niati-maryam/index.html#education",
-    "href": "people/niati-maryam/index.html#education",
-    "title": "Maryam Niati",
-    "section": "Education",
-    "text": "Education\n?meta:education"
   },
   {
     "objectID": "people/niati-maryam/index.html#s-group-publications",
@@ -63,25 +49,11 @@
     "text": "Maryam’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
   },
   {
-    "objectID": "people/landers-jordan/index.html#education",
-    "href": "people/landers-jordan/index.html#education",
-    "title": "Jordan Landers",
-    "section": "Education",
-    "text": "Education\n?meta:education"
-  },
-  {
     "objectID": "people/landers-jordan/index.html#s-group-publications",
     "href": "people/landers-jordan/index.html#s-group-publications",
     "title": "Jordan Landers",
     "section": "Jordan’s Group Publications",
     "text": "Jordan’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "people/james-alexander/index.html#education",
-    "href": "people/james-alexander/index.html#education",
-    "title": "Alexander James",
-    "section": "Education",
-    "text": "Education\n?meta:education"
   },
   {
     "objectID": "people/james-alexander/index.html#s-group-publications",
@@ -91,25 +63,11 @@
     "text": "Alexander’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
   },
   {
-    "objectID": "people/heiser-chris/index.html#education",
-    "href": "people/heiser-chris/index.html#education",
-    "title": "Chris Heiser",
-    "section": "Education",
-    "text": "Education\n?meta:education"
-  },
-  {
     "objectID": "people/heiser-chris/index.html#s-group-publications",
     "href": "people/heiser-chris/index.html#s-group-publications",
     "title": "Chris Heiser",
     "section": "Chris’s Group Publications",
     "text": "Chris’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "people/gondhalekar-tanaya/index.html#education",
-    "href": "people/gondhalekar-tanaya/index.html#education",
-    "title": "Tanaya Gondhalekar",
-    "section": "Education",
-    "text": "Education\n?meta:education"
   },
   {
     "objectID": "people/gondhalekar-tanaya/index.html#s-group-publications",
@@ -119,25 +77,11 @@
     "text": "Tanaya’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
   },
   {
-    "objectID": "people/garijo-daniel/index.html#education",
-    "href": "people/garijo-daniel/index.html#education",
-    "title": "Daniel Garijo",
-    "section": "Education",
-    "text": "Education\n?meta:education"
-  },
-  {
     "objectID": "people/garijo-daniel/index.html#s-group-publications",
     "href": "people/garijo-daniel/index.html#s-group-publications",
     "title": "Daniel Garijo",
     "section": "Daniel’s Group Publications",
     "text": "Daniel’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "people/emile-geay-julien/index.html#education",
-    "href": "people/emile-geay-julien/index.html#education",
-    "title": "Julien Emile-Geay",
-    "section": "Education",
-    "text": "Education\n?meta:education"
   },
   {
     "objectID": "people/emile-geay-julien/index.html#s-group-publications",
@@ -158,14 +102,14 @@
     "href": "data/index.html",
     "title": "Data",
     "section": "",
-    "text": "LinkedEarth develops data standards and curates compilations for paleoclimate information through community collaboration and NSF support.\n\n\nLinkedEarth got started because of how impractical it was (back in 2015 or so) to work with paleoclimate data. Since then, we have created comprehensive data standards. These standards comprise three key elements:\n\nData Representation: The LiPD format and its associated LinkedEarth Ontology provide structural organization for paleoclimate datasets.\nStandard Vocabulary: NOAA developed the PaST Thesaurus to establish consistent terminology across the field. ADD Lipdverse vocabs\nReporting Guidelines: The PaCTS standard specifies crowdsourced guidelines for reporting paleoclimate data. This collaborative effort involved over 135 international researchers and received recognition from the American Geophysical Union, at its 2019 annual meeting plenary session.\n\n\n\n\nOne of the major hurdles to standardize paleoclimate datasets is getting them into the LiPD format. To aid this process, we created the LiPD Playground, a web interface that allows users to easily create LiPD files. The system incorporates PaleoRec, a recommendation tool employing deep learning to assist with metadata completion during dataset annotation.\n\n\n\nLiPDverse serves as a repository housing datasets formatted according to LiPD standards. The collection features datasets in the LiPD format, which are also available through a graph interface. Much of the content originated from PAGES collaborations with community-vetted metadata. The platform enables straightforward querying and visualization capabilities for paleoclimate information.\n\n\n\nTo contribute data to LinkedEarth, please use the LiPD Playground to format your dataset or contact us at linkedearth@gmail.com for assistance."
+    "text": "LinkedEarth develops data standards and curates compilations for paleoclimate information through community collaboration and NSF support.\n\n\nLinkedEarth got started because of how impractical it was (back in 2015 or so) to work with paleoclimate data. Since then, we have created comprehensive data standards. These standards comprise three key elements:\n\nData Representation: The LiPD format and its associated LinkedEarth Ontology provide structural organization for paleoclimate datasets. LiPD is a flexible, metadata-rich open access data format designed for paleoclimate and other paleogeoscientific datasets. We have developed packages in python and R to make it easy to interact with LiPD data in those programming languages.\nStandard Vocabulary: NOAA developed the PaST Thesaurus to establish consistent terminology across the field. For datasets on the LiPDverse, we have aligned key components of the LiPD vocabulary with the PaST Thesaurus. You can browse the LiPDverse vocabulary here\nReporting Guidelines: The PaCTS standard specifies crowdsourced guidelines for reporting paleoclimate data. This collaborative effort involved over 135 international researchers and received recognition from the American Geophysical Union, at its 2019 annual meeting plenary session.\n\n\n\n\nOne of the major hurdles to standardize paleoclimate datasets is getting them into the LiPD format. To aid this process, we created the LiPD Playground, a web interface that allows users to easily create LiPD files. The system incorporates PaleoRec, a recommendation tool employing deep learning to assist with metadata completion during dataset annotation.\n\n\n\nLiPDverse serves as a repository housing datasets formatted according to LiPD standards. The collection features more than 7000 datasets in the LiPD format, which are also available through a graph interface. Most of these datasets have were curated as part of international compilation efforts, including many PAGES working groups, and have community-vetted metadata. The platform enables straightforward data access and visualization capabilities for paleoclimate data.\n\n\n\nTo contribute data to LinkedEarth, please use the LiPD Playground to format your dataset or contact us at linkedearth@gmail.com for assistance."
   },
   {
     "objectID": "data/index.html#linkedearth-data-resources",
     "href": "data/index.html#linkedearth-data-resources",
     "title": "Data",
     "section": "",
-    "text": "LinkedEarth develops data standards and curates compilations for paleoclimate information through community collaboration and NSF support.\n\n\nLinkedEarth got started because of how impractical it was (back in 2015 or so) to work with paleoclimate data. Since then, we have created comprehensive data standards. These standards comprise three key elements:\n\nData Representation: The LiPD format and its associated LinkedEarth Ontology provide structural organization for paleoclimate datasets.\nStandard Vocabulary: NOAA developed the PaST Thesaurus to establish consistent terminology across the field. ADD Lipdverse vocabs\nReporting Guidelines: The PaCTS standard specifies crowdsourced guidelines for reporting paleoclimate data. This collaborative effort involved over 135 international researchers and received recognition from the American Geophysical Union, at its 2019 annual meeting plenary session.\n\n\n\n\nOne of the major hurdles to standardize paleoclimate datasets is getting them into the LiPD format. To aid this process, we created the LiPD Playground, a web interface that allows users to easily create LiPD files. The system incorporates PaleoRec, a recommendation tool employing deep learning to assist with metadata completion during dataset annotation.\n\n\n\nLiPDverse serves as a repository housing datasets formatted according to LiPD standards. The collection features datasets in the LiPD format, which are also available through a graph interface. Much of the content originated from PAGES collaborations with community-vetted metadata. The platform enables straightforward querying and visualization capabilities for paleoclimate information.\n\n\n\nTo contribute data to LinkedEarth, please use the LiPD Playground to format your dataset or contact us at linkedearth@gmail.com for assistance."
+    "text": "LinkedEarth develops data standards and curates compilations for paleoclimate information through community collaboration and NSF support.\n\n\nLinkedEarth got started because of how impractical it was (back in 2015 or so) to work with paleoclimate data. Since then, we have created comprehensive data standards. These standards comprise three key elements:\n\nData Representation: The LiPD format and its associated LinkedEarth Ontology provide structural organization for paleoclimate datasets. LiPD is a flexible, metadata-rich open access data format designed for paleoclimate and other paleogeoscientific datasets. We have developed packages in python and R to make it easy to interact with LiPD data in those programming languages.\nStandard Vocabulary: NOAA developed the PaST Thesaurus to establish consistent terminology across the field. For datasets on the LiPDverse, we have aligned key components of the LiPD vocabulary with the PaST Thesaurus. You can browse the LiPDverse vocabulary here\nReporting Guidelines: The PaCTS standard specifies crowdsourced guidelines for reporting paleoclimate data. This collaborative effort involved over 135 international researchers and received recognition from the American Geophysical Union, at its 2019 annual meeting plenary session.\n\n\n\n\nOne of the major hurdles to standardize paleoclimate datasets is getting them into the LiPD format. To aid this process, we created the LiPD Playground, a web interface that allows users to easily create LiPD files. The system incorporates PaleoRec, a recommendation tool employing deep learning to assist with metadata completion during dataset annotation.\n\n\n\nLiPDverse serves as a repository housing datasets formatted according to LiPD standards. The collection features more than 7000 datasets in the LiPD format, which are also available through a graph interface. Most of these datasets have were curated as part of international compilation efforts, including many PAGES working groups, and have community-vetted metadata. The platform enables straightforward data access and visualization capabilities for paleoclimate data.\n\n\n\nTo contribute data to LinkedEarth, please use the LiPD Playground to format your dataset or contact us at linkedearth@gmail.com for assistance."
   },
   {
     "objectID": "community/index.html",
@@ -210,25 +154,11 @@
     "text": "Completed Grants\n\nCollaborative Research: A Big Data Approach to Fundamental Paleoclimate Questions\nNSF Award: AGS 2002518\nPIs Julien Emile-Geay, Deborah Khider, Jud Partin (U. Houston), C. Thackeray (UCLA)\nPeriod: 09/01/2020 – 08/31/2025\n\nThis grant funded 3 main activities: (1) further development of the Pyleoclim package (esp an extensive documentation and tutorials) and outreach to the worldwide community via 3 virtual hackathons and one in-person hackathon; (2) exploration of the presence of abrupt and smooth shifts in hydroclimate regimes over the past glacial cycles; (3) developement of emergent constraints on equilibrium climate sensitivity from climate reconstructions and simulations of the past millennium. The development of the Pyleoclim Package was also supported by a grant from JP Morgan.\n\nPublications: Khider et al. (2022), Cropper et al, (2023), James et al. (2024), James et al. (2025a), James et al. (2025b)\n\n\nTowards Reflection Competencies for AI Scientists: Developing a Conceptual Framework and Open Research Platform.\nOffice of Naval Research PIs: Yolanda Gil Period: 06/01/2021 - 05/31/2023\nAs scientific questions become more complex, the capabilities of scientists to do research will need to be augmented with AI systems. This project will develop an open architecture for cognitive AI scientists that can formulate scientific questions, devise strategies to answer them, and place new findings in the context of the original question. A core aspects of this research is capturing scientific knowledge to reason about open questions, construct plausible hypotheses, formulate appropriate methods to test them, and interpret the results obtained.\n\n\nAutomating Machine Learning for Time Series Analysis.\nJP Morgan Award PIs: Yolanda Gil, Deborah Khider Period: 03/01/2019 - 01/31/2022\nThe goal of this project was to automate time series analysis. This would enable non-experts to analyze time series data with high-quality, proven methods, and would also allow efficient analysis of the vasts amount of timeseries data available.\nPublications: Khider et al. 2020\n\n\nBelmont Forum Collaborative Research: Abrupt Change in Climate and Ecosystems: Where are the Tipping Points?\nAward: Belmont Forum via NSF, ICER 1929554 Period: 07/01/2019 – 06/30/2022\nNICK PLEASE WRITE and refer to actR\n\n\nCollaborative Research: LinkedEarth: Crowdsourcing Data Curation & Standards Development in Paleoclimatology\nNSF Award: ICER 1541029 PIs: Julien Emile-Geay, Yolanda Gil, Nick McKay Period: 09/01/2015 – 08/31/2019\n\nOur namesake grant, which kickstarted collaboration within the core team, back when Deborah was a postdoc. LinkedEarth aimed to leverage semantic web technologies to crowdsource the curation of paleoclimate datasets and compilations. The project led to the developement of the LinkedEarth wiki (now defunct) and the PaCTS reporting standard, obtained through extensive community consultation, particularly through a meeting at the World Data Service for Paleoclimatology in Boulder, CO in 2016.\nPublications: Gil et al, (2017), Khider et al (2019) Products: LinkedEarth Ontology\n\n\nCollaborative Research: GeoChronR - open-source tools for the analysis, visualization and integration of time-uncertain geoscientific data\nNSF Award: EAR 1347213 PIs: Nick McKay, Julien Emile-Geay Period: 07/01/2014 – 06/30/2018\n\nGeoChronR is an integrated framework in the R language that allows scientists to generate state-of-the-art age models for their records, create time-uncertain ensembles of their data, analyze those ensembles with a number of commonly-used techniques, and visualize their results in an intuitive way. This grant funded the development of the package, as well as 2 workshops (2016, 2017 in Flagstaff, AZ) to disseminate its use. In parallel, GeoChronR motivated the creation of the Linked Paleo Data (LiPD) framework, which is at the root of many LinkedEarth data endeavors.\nPublications: McKay & Emile-Geay (2016), McKay et al. (2021)"
   },
   {
-    "objectID": "people/edge-david/index.html#education",
-    "href": "people/edge-david/index.html#education",
-    "title": "David Edge",
-    "section": "Education",
-    "text": "Education\n?meta:education"
-  },
-  {
     "objectID": "people/edge-david/index.html#s-group-publications",
     "href": "people/edge-david/index.html#s-group-publications",
     "title": "David Edge",
     "section": "David’s Group Publications",
     "text": "David’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "people/erb-michael/index.html#education",
-    "href": "people/erb-michael/index.html#education",
-    "title": "Michael Erb",
-    "section": "Education",
-    "text": "Education\n?meta:education"
   },
   {
     "objectID": "people/erb-michael/index.html#s-group-publications",
@@ -238,25 +168,11 @@
     "text": "Michael’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
   },
   {
-    "objectID": "people/gil-yolanda/index.html#education",
-    "href": "people/gil-yolanda/index.html#education",
-    "title": "Yolanda Gil",
-    "section": "Education",
-    "text": "Education\n?meta:education"
-  },
-  {
     "objectID": "people/gil-yolanda/index.html#s-group-publications",
     "href": "people/gil-yolanda/index.html#s-group-publications",
     "title": "Yolanda Gil",
     "section": "Yolanda’s Group Publications",
     "text": "Yolanda’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "people/hancock-chris/index.html#education",
-    "href": "people/hancock-chris/index.html#education",
-    "title": "Chris Hancock",
-    "section": "Education",
-    "text": "Education\n?meta:education"
   },
   {
     "objectID": "people/hancock-chris/index.html#s-group-publications",
@@ -294,25 +210,11 @@
     "text": "Past Members\n\n\n\n  \n   \n\n     \n    \n    \n      \n      \n      \n      \n        \n          \n          \n          \n            \n          \n          \n          \n            \n            \n              Daniel Garijo \n            \n               \n            \n\n              \n                  Alumnus, Universidad Politécnica de Madrid\n                  \n\n            \n                \n            \n              \n              \n\n                \n                    \n                    \n\n              \n\n              \n              \n                e-Science, semantic web, scientific workflows, provenance\n              \n              \n\n            \n          \n      \n      \n    \n  \n     \n    \n    \n      \n      \n      \n      \n        \n          \n          \n          \n            \n          \n          \n          \n            \n            \n              Yolanda Gil \n            \n               \n            \n\n              \n                  Former PI, Information Sciences Institute\n                  \n\n            \n                \n            \n              \n              \n\n                \n                    \n                    \n\n              \n\n              \n              \n                AI for science, semantic workflows, knowledge capture\n              \n              \n\n            \n          \n      \n      \n    \n  \n     \n    \n    \n      \n      \n      \n      \n        \n          \n          \n          \n            \n          \n          \n          \n            \n            \n              Chris Hancock \n            \n               \n            \n\n              \n                  Alumnus, Northern Arizona University\n                  \n\n            \n                \n            \n              \n              \n\n                \n                    \n                    \n\n              \n\n              \n              \n                Paleoclimate data synthesis, data assimilation, compositeR development\n              \n              \n\n            \n          \n      \n      \n    \n  \n     \n    \n    \n      \n      \n      \n      \n        \n          \n          \n          \n            \n          \n          \n          \n            \n            \n              Chris Heiser \n            \n               \n            \n\n              \n                  Alumnus, Northern Arizona University\n                  \n\n            \n                \n            \n              \n              \n\n                \n                    \n                    \n\n              \n\n              \n              \n                Technical development for LiPD, LiPD playground developer\n              \n              \n\n            \n          \n      \n      \n    \n  \n     \n    \n    \n      \n      \n      \n      \n        \n          \n          \n          \n            \n          \n          \n          \n            \n            \n              Alexander James \n            \n               \n            \n\n              \n                  Alumnus, University of Southern California\n                  \n\n            \n                \n            \n              \n              \n\n                \n                    \n                    \n\n              \n\n              \n              \n                Paleoclimatology, Nonlinear timeseries analysis, Pyleoclim & Ammonyte development\n              \n              \n\n            \n          \n      \n      \n    \n  \n     \n    \n    \n      \n      \n      \n      \n        \n          \n          \n          \n            \n          \n          \n          \n            \n            \n              Cody Rouston \n            \n               \n            \n\n              \n                  Alumnus, University of Arizona\n                  \n\n            \n                \n            \n              \n              \n\n                \n                    \n                    \n\n              \n\n              \n              \n                Paleoclimate data synthesis, data analysis, dendrochronology\n              \n              \n\n            \n          \n      \n      \n    \n  \n     \n    \n    \n      \n      \n      \n      \n        \n          \n          \n          \n            \n          \n          \n          \n            \n            \n              Feng Zhu \n            \n               \n            \n\n              \n                  Alumnus, University of Southern California\n                  \n\n            \n                \n            \n              \n              \n\n                \n                    \n                    \n\n              \n\n              \n              \n                Paleoclimate data assimilation; lead architect of the cfr package; Pyleoclim development\n              \n              \n\n            \n          \n      \n      \n    \n  \n    \n  \n\n\n\nNo matching items"
   },
   {
-    "objectID": "people/khider-deborah/index.html#education",
-    "href": "people/khider-deborah/index.html#education",
-    "title": "Deborah Khider",
-    "section": "Education",
-    "text": "Education\n?meta:education"
-  },
-  {
     "objectID": "people/khider-deborah/index.html#s-group-publications",
     "href": "people/khider-deborah/index.html#s-group-publications",
     "title": "Deborah Khider",
     "section": "Deborah’s Group Publications",
     "text": "Deborah’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "people/mckay-nick/index.html#education",
-    "href": "people/mckay-nick/index.html#education",
-    "title": "Nick McKay",
-    "section": "Education",
-    "text": "Education\n?meta:education"
   },
   {
     "objectID": "people/mckay-nick/index.html#s-group-publications",
@@ -322,25 +224,11 @@
     "text": "Nick’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
   },
   {
-    "objectID": "people/ratnakar-varun/index.html#education",
-    "href": "people/ratnakar-varun/index.html#education",
-    "title": "Varun Ratnakar",
-    "section": "Education",
-    "text": "Education\n?meta:education"
-  },
-  {
     "objectID": "people/ratnakar-varun/index.html#s-group-publications",
     "href": "people/ratnakar-varun/index.html#s-group-publications",
     "title": "Varun Ratnakar",
     "section": "Varun’s Group Publications",
     "text": "Varun’s Group Publications\n\n\n    \n      \n      \n    \n\n\n    \n    \n\nNo matching items"
-  },
-  {
-    "objectID": "people/zhu-feng/index.html#education",
-    "href": "people/zhu-feng/index.html#education",
-    "title": "Feng Zhu",
-    "section": "Education",
-    "text": "Education\n?meta:education"
   },
   {
     "objectID": "people/zhu-feng/index.html#s-group-publications",

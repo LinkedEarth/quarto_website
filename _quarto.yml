@@ -21,6 +21,7 @@ website:
     right:
       - icon: github
         href: https://github.com/LinkedEarth/quarto_website
+        aria-label: "LinkedEarth on GitHub"
 
   navbar:
     search: true
