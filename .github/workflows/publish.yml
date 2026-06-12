@@ -1,10 +1,13 @@
 name: Publish to GitHub Pages
 
+# This workflow is disabled. This repository is retired.
+# See https://github.com/LinkedEarth/linkedearth.github.io for the active repo.
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
+    inputs:
+      reason:
+        description: 'This repo is retired. Are you sure?'
+        required: true
 
 permissions:
   contents: read
